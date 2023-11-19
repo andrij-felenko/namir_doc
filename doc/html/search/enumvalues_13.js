@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['taiwan_5fnew_5fdollar_1104',['Taiwan_New_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da8a6cfd8fb0c6fdd87b67a44c6b727e49',1,'enums']]],
+  ['tajikistani_5fsomoni_1105',['Tajikistani_Somoni',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da44ea7239cf9c5a3cf4a719b423311f24',1,'enums']]],
+  ['tanzanian_5fshilling_1106',['Tanzanian_Shilling',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60dad8d828029d4a4952ed32344148b679d5',1,'enums']]],
+  ['temporary_1107',['Temporary',['../d1/d2e/namespaceenums.html#a5e811e1ce3ad12fac29c511f19be888ba10d85d7664a911bcaec89732098c269a',1,'enums']]],
+  ['text_1108',['Text',['../d1/d2e/namespaceenums.html#a59583a3620c21f85fc60dc2478b59950a9dffbf69ffba8bc38bc4e01abf4b1675',1,'enums']]],
+  ['thai_5fbaht_1109',['Thai_Baht',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da4e2a8d93757b82e5719f62e0564584a5',1,'enums']]],
+  ['tieaccount_1110',['TieAccount',['../d1/d2e/namespaceenums.html#a1cdd9a686db2ae4946d423d6b090fc4da161ef36dfeec606d126777dfbe3062d2',1,'enums']]],
+  ['tieroom_1111',['TieRoom',['../d1/d2e/namespaceenums.html#a1cdd9a686db2ae4946d423d6b090fc4dae093a8e9bc60b8cb0732013525fa32ee',1,'enums']]],
+  ['tongan_5fpaanga_1112',['Tongan_Paanga',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da0c51583569be41e50853490971373c4f',1,'enums']]],
+  ['toonlycurrent_1113',['ToOnlyCurrent',['../d1/d2e/namespaceenums.html#ad86de4f3d3cd62cde578c6477a217aafa8d7ab38187e2cc8065bbdaf5ab6b9001',1,'enums']]],
+  ['toonlylastchange_1114',['ToOnlyLastChange',['../d1/d2e/namespaceenums.html#ad86de4f3d3cd62cde578c6477a217aafa03199ccbdefff16c01995731ec594b90',1,'enums']]],
+  ['top_1115',['Top',['../d1/d2e/namespaceenums.html#aa836f14f5a71709d493f7599cf125835aa4ffdcf0dc1f31b9acaf295d75b51d00',1,'enums']]],
+  ['topbottom_1116',['TopBottom',['../d1/d2e/namespaceenums.html#aa836f14f5a71709d493f7599cf125835ae877fb9a176ab7b69019a542d4844262',1,'enums']]],
+  ['topleft_1117',['TopLeft',['../d1/d2e/namespaceenums.html#aa836f14f5a71709d493f7599cf125835ab32beb056fbfe36afbabc6c88c81ab36',1,'enums']]],
+  ['topright_1118',['TopRight',['../d1/d2e/namespaceenums.html#aa836f14f5a71709d493f7599cf125835a1d85a557894c340c318493f33bfa8efb',1,'enums']]],
+  ['trinidadian_5fdollar_1119',['Trinidadian_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da9d5efe3bd1c917b744c7859ec9bda3ff',1,'enums']]],
+  ['tunisian_5fdinar_1120',['Tunisian_Dinar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da978303f5254170330ed43967404bb0d6',1,'enums']]],
+  ['turkish_5flira_1121',['Turkish_Lira',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60dad9de144c4bebcab83727eee7464eab9c',1,'enums']]],
+  ['turkmenistani_5fmanat_1122',['Turkmenistani_Manat',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da2435d8c2b42adaf14e944f8e039cf11a',1,'enums']]],
+  ['tuvaluan_5fdollar_1123',['Tuvaluan_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da0d39910cc7348d70aa3279d44e4fdcb4',1,'enums']]]
+];

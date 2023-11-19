@@ -1,0 +1,1104 @@
+.TH "enums" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+enums \- \\inmodule stem  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum class \fBAttribute\fP : uint16_t "
+.br
+.RI "Specified for Attribute list using insode \fBField\fP class \\inmodule stem \\value None \\value Email \\value Login \\value Icon\&. "
+.ti -1c
+.RI "enum class \fBRequestToServer\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSave\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBObject\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBAccess\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSendStatus\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBCurrency\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBAccountType\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBAnchor\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBContinent\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBOS\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSchedule\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSaving\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBAction\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBComplete\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBFile\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBCompress\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSortSensitive\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSortDirection\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBSortBy\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBLink\fP : uint16_t "
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBAttribute\fP &attr)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBRequestToServer\fP &r)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSave\fP &s)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBObject\fP &obj)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBAccess\fP &acs)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSendStatus\fP &ss)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBAccountType\fP &acc)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBAnchor\fP &an)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBContinent\fP &c)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBOS\fP &os)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSchedule\fP &sh)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSaving\fP &ss)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBAction\fP &a)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBComplete\fP &c)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBFile\fP &f)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBCompress\fP &c)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSortSensitive\fP &s)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSortDirection\fP &s)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBSortBy\fP &s)"
+.br
+.ti -1c
+.RI "std::string \fBtoString\fP (const \fBLink\fP &l)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "const auto \fBAttribute_0\fP = \fBAttribute::None\fP"
+.br
+.ti -1c
+.RI "const auto \fBRequest_0\fP = \fBRequestToServer::Login\fP"
+.br
+.ti -1c
+.RI "const auto \fBSave_0\fP = \fBSave::OnlyCurrent\fP"
+.br
+.ti -1c
+.RI "const auto \fBObject_0\fP = \fBObject::Public\fP"
+.br
+.ti -1c
+.RI "const auto \fBAccess_0\fP = \fBAccess::Owner\fP"
+.br
+.ti -1c
+.RI "const auto \fBSendStatus_0\fP = \fBSendStatus::None\fP"
+.br
+.ti -1c
+.RI "const auto \fBAccountType_0\fP = \fBAccountType::Unknown\fP"
+.br
+.ti -1c
+.RI "const auto \fBAnchor_0\fP = \fBAnchor::Unarchor\fP"
+.br
+.ti -1c
+.RI "const auto \fBContinent_0\fP = \fBContinent::Unknown\fP"
+.br
+.ti -1c
+.RI "const auto \fBOS_0\fP = \fBOS::iOS\fP"
+.br
+.ti -1c
+.RI "const auto \fBSchedule_0\fP = \fBSchedule::None\fP"
+.br
+.ti -1c
+.RI "const auto \fBSaving_0\fP = \fBSaving::Temporary\fP"
+.br
+.ti -1c
+.RI "const auto \fBAction_0\fP = \fBAction::Add\fP"
+.br
+.ti -1c
+.RI "const auto \fBComplete_0\fP = \fBComplete::Unnecessary\fP"
+.br
+.ti -1c
+.RI "const auto \fBFile_0\fP = \fBFile::Data\fP"
+.br
+.ti -1c
+.RI "const auto \fBCompress_0\fP = \fBCompress::NotAtAll\fP"
+.br
+.ti -1c
+.RI "const auto \fBSortSensitive_0\fP = \fBSortSensitive::CaseSensitive\fP"
+.br
+.ti -1c
+.RI "const auto \fBSortDirection_0\fP = \fBSortDirection::Direct\fP"
+.br
+.ti -1c
+.RI "const auto \fBSortBy_0\fP = \fBSortBy::Alphabet\fP"
+.br
+.ti -1c
+.RI "const auto \fBLink_0\fP = \fBLink::User\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\\inmodule stem 
+
+------- List of Enums -------- ---------- All Exxx ---------- yxx Attributes Ayx \&.\&. base AA0 - AFF \&.\&. RequestToServer BA0 - BDF \&.\&. Save BE0 - BE7 \&.\&. Object BE8 - BEF \&.\&. Access BF0 - BF5 \&.\&. SendStatus BF6 - BFF \&.\&. Currency Cxx Account DAx \&.\&. Anchor DBx \&.\&. Continent DC0 - DC7 \&.\&. OS DC8 - DCF \&.\&. Schedule DD0 - DDB \&.\&. Saving DDC - DDF \&.\&. Action DE0 - DE7 \&.\&. Complete DE8 - DEB \&.\&. ????? DEC - DEF File DF0 - DFB \&.\&. Compress DFC - DFF \&.\&. Sort F00 - F3F \&.\&. F40 - FFF Free
+.PP
+x - all posible values 
+.SS "y[0-9] - enums by module_id "
+
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBenums::Access\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIOwner \fP\fP
+.TP
+\fB\fIAdmin \fP\fP
+.TP
+\fB\fIModerator \fP\fP
+.TP
+\fB\fIUser \fP\fP
+.PP
+Definition at line 121 of file enum\&.h\&.
+.SS "enum \fBenums::AccountType\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIUnknown \fP\fP
+.TP
+\fB\fIUser \fP\fP
+User enum, unite both LocalUser and GlobalUser\&. 
+.TP
+\fB\fIOrganization \fP\fP
+Organization enum, unite LocalOrganization and GlobalOrganization\&. 
+.TP
+\fB\fILocal \fP\fP
+Use for show that enum is local\&. 
+.TP
+\fB\fIGlobal \fP\fP
+Use for Global enum\&. 
+.TP
+\fB\fILocalUser \fP\fP
+User, that not accept from server yet, can't send information to global server\&. 
+.TP
+\fB\fILocalOrganization \fP\fP
+Local organization, use only on current device\&. 
+.TP
+\fB\fIGlobalUser \fP\fP
+User, that registrate on server\&. 
+.TP
+\fB\fIGlobalOrganization \fP\fP
+Organization, registrate on server, always have owner user\&. 
+.PP
+Definition at line 324 of file enum\&.h\&.
+.SS "enum \fBenums::Action\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIAdd \fP\fP
+.TP
+\fB\fIEdit \fP\fP
+.TP
+\fB\fIRemove \fP\fP
+.TP
+\fB\fIComplete \fP\fP
+.TP
+\fB\fIDoAfter \fP\fP
+.PP
+Definition at line 408 of file enum\&.h\&.
+.SS "enum \fBenums::Anchor\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIUnarchor \fP\fP
+.TP
+\fB\fITop \fP\fP
+.TP
+\fB\fILeft \fP\fP
+.TP
+\fB\fITopLeft \fP\fP
+.TP
+\fB\fIRight \fP\fP
+.TP
+\fB\fITopRight \fP\fP
+.TP
+\fB\fILeftRight \fP\fP
+.TP
+\fB\fILessBottom \fP\fP
+.TP
+\fB\fIBottom \fP\fP
+.TP
+\fB\fITopBottom \fP\fP
+.TP
+\fB\fILeftBottom \fP\fP
+.TP
+\fB\fILessRight \fP\fP
+.TP
+\fB\fIRightBottom \fP\fP
+.TP
+\fB\fILessLeft \fP\fP
+.TP
+\fB\fILessTop \fP\fP
+.TP
+\fB\fIMax \fP\fP
+.PP
+Definition at line 341 of file enum\&.h\&.
+.SS "enum \fBenums::Attribute\fP : uint16_t\fC [strong]\fP"
+
+.PP
+Specified for Attribute list using insode \fBField\fP class \\inmodule stem \\value None \\value Email \\value Login \\value Icon\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIEmail \fP\fP
+.TP
+\fB\fILogin \fP\fP
+.TP
+\fB\fIIcon \fP\fP
+.PP
+Definition at line 36 of file enum\&.h\&.
+.SS "enum \fBenums::Complete\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIUnnecessary \fP\fP
+.TP
+\fB\fIUnConfirmed \fP\fP
+.TP
+\fB\fIAwaiting \fP\fP
+.TP
+\fB\fIDone \fP\fP
+.PP
+Definition at line 418 of file enum\&.h\&.
+.SS "enum \fBenums::Compress\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINotAtAll \fP\fP
+.TP
+\fB\fIRemoveRollBack \fP\fP
+.TP
+\fB\fIToOnlyLastChange \fP\fP
+.TP
+\fB\fIToOnlyCurrent \fP\fP
+.PP
+Definition at line 439 of file enum\&.h\&.
+.SS "enum \fBenums::Continent\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIUnknown \fP\fP
+.TP
+\fB\fIEurope \fP\fP
+.TP
+\fB\fIAfrica \fP\fP
+.TP
+\fB\fINorth_America \fP\fP
+.TP
+\fB\fISouth_America \fP\fP
+.TP
+\fB\fIOceania \fP\fP
+.TP
+\fB\fIEast_Asia \fP\fP
+.TP
+\fB\fIWest_Asia \fP\fP
+.PP
+Definition at line 362 of file enum\&.h\&.
+.SS "enum \fBenums::Currency\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fICFA_Franc \fP\fP
+.TP
+\fB\fISouth_African_Rand \fP\fP
+.TP
+\fB\fIKenyan_Shilling \fP\fP
+.TP
+\fB\fIEgyptian_Pound \fP\fP
+.TP
+\fB\fIMoroccan_Dirham \fP\fP
+.TP
+\fB\fINigerian_Naira \fP\fP
+.TP
+\fB\fITunisian_Dinar \fP\fP
+.TP
+\fB\fIUgandan_Shilling \fP\fP
+.TP
+\fB\fICentral_African \fP\fP
+.TP
+\fB\fILibyan_Dinar \fP\fP
+.TP
+\fB\fIMauritian_Rupee \fP\fP
+.TP
+\fB\fIGhanaian_Cedi \fP\fP
+.TP
+\fB\fIAngolan_Kwanza \fP\fP
+.TP
+\fB\fITanzanian_Shilling \fP\fP
+.TP
+\fB\fIZimbabwean_Dollar \fP\fP
+.TP
+\fB\fIBotswana_Pula \fP\fP
+.TP
+\fB\fIAlgerian_Dinar \fP\fP
+.TP
+\fB\fIEthiopian_Birr \fP\fP
+.TP
+\fB\fINamibian_Dollar \fP\fP
+.TP
+\fB\fISudanese_Pound \fP\fP
+.TP
+\fB\fIMalagasy_Ariary \fP\fP
+.TP
+\fB\fIMozambican_Metical \fP\fP
+.TP
+\fB\fISeychellois_Rupee \fP\fP
+.TP
+\fB\fISierra_Leonean_Leone \fP\fP
+.TP
+\fB\fIMalawian_Kwacha \fP\fP
+.TP
+\fB\fIGambian_Dalasi \fP\fP
+.TP
+\fB\fIBurundian_Franc \fP\fP
+.TP
+\fB\fISomali_Shilling \fP\fP
+.TP
+\fB\fIGuinean_Franc \fP\fP
+.TP
+\fB\fICongolese_Franc \fP\fP
+.TP
+\fB\fISao_Tomean_Dobra \fP\fP
+.TP
+\fB\fIBasotho_Loti \fP\fP
+.TP
+\fB\fILiberian_Dollar \fP\fP
+.TP
+\fB\fIMauritanian_Ouguiya \fP\fP
+.TP
+\fB\fISwazi_Lilangeni \fP\fP
+.TP
+\fB\fICape_Verdean_Escudo \fP\fP
+.TP
+\fB\fIRwandan_Franc \fP\fP
+.TP
+\fB\fIDjiboutian_Franc \fP\fP
+.TP
+\fB\fIComorian_Franc \fP\fP
+.TP
+\fB\fIEritrean_Nakfa \fP\fP
+.TP
+\fB\fISaint_Helenian_Pound \fP\fP
+.TP
+\fB\fIZambian_Kwacha \fP\fP
+.TP
+\fB\fILao_Kip \fP\fP
+.TP
+\fB\fIIndian_Rupee \fP\fP
+.TP
+\fB\fISingapore_Dollar \fP\fP
+.TP
+\fB\fIMalaysian_Ringgit \fP\fP
+.TP
+\fB\fIJapanese_Yen \fP\fP
+.TP
+\fB\fIChinese_Yuan \fP\fP
+.TP
+\fB\fIThai_Baht \fP\fP
+.TP
+\fB\fIEmirati_Dirham \fP\fP
+.TP
+\fB\fIHong_Kong_Dollar \fP\fP
+.TP
+\fB\fITurkish_Lira \fP\fP
+.TP
+\fB\fIPhilippine_Piso \fP\fP
+.TP
+\fB\fIIndonesian_Rupiah \fP\fP
+.TP
+\fB\fISaudi_Arabian_Riyal \fP\fP
+.TP
+\fB\fISouth_Korean_Won \fP\fP
+.TP
+\fB\fIIraqi_Dinar \fP\fP
+.TP
+\fB\fIArmenian_Dram \fP\fP
+.TP
+\fB\fIAzerbaijan_Manat \fP\fP
+.TP
+\fB\fIGeorgian_Lari \fP\fP
+.TP
+\fB\fIKuwaiti_Dinar \fP\fP
+.TP
+\fB\fIRussian_Ruble \fP\fP
+.TP
+\fB\fIPakistani_Rupee \fP\fP
+.TP
+\fB\fIIsraeli_Shekel \fP\fP
+.TP
+\fB\fIQatari_Riyal \fP\fP
+.TP
+\fB\fIOmani_Rial \fP\fP
+.TP
+\fB\fITaiwan_New_Dollar \fP\fP
+.TP
+\fB\fIVietnamese_Dong \fP\fP
+.TP
+\fB\fIJordanian_Dinar \fP\fP
+.TP
+\fB\fIBahraini_Dinar \fP\fP
+.TP
+\fB\fISri_Lankan_Rupee \fP\fP
+.TP
+\fB\fIBangladeshi_Taka \fP\fP
+.TP
+\fB\fIUzbekistani_Som \fP\fP
+.TP
+\fB\fIIranian_Rial \fP\fP
+.TP
+\fB\fISyrian_Pound \fP\fP
+.TP
+\fB\fIAfghan_Afghani \fP\fP
+.TP
+\fB\fILebanese_Pound \fP\fP
+.TP
+\fB\fINepalese_Rupee \fP\fP
+.TP
+\fB\fIBruneian_Dollar \fP\fP
+.TP
+\fB\fIMacau_Pataca \fP\fP
+.TP
+\fB\fIKazakhstani_Tenge \fP\fP
+.TP
+\fB\fIYemeni_Rial \fP\fP
+.TP
+\fB\fIMaldivian_Rufiyaa \fP\fP
+.TP
+\fB\fIMongolian_Tughrik \fP\fP
+.TP
+\fB\fITajikistani_Somoni \fP\fP
+.TP
+\fB\fINorth_Korean_Won \fP\fP
+.TP
+\fB\fIBurmese_Kyat \fP\fP
+.TP
+\fB\fIKyrgyzstani_Som \fP\fP
+.TP
+\fB\fICambodian_Riel \fP\fP
+.TP
+\fB\fIBhutanese_Ngultrum \fP\fP
+.TP
+\fB\fITurkmenistani_Manat \fP\fP
+.TP
+\fB\fIEuro \fP\fP
+.TP
+\fB\fIBritish_Pound \fP\fP
+.TP
+\fB\fISwiss_Franc \fP\fP
+.TP
+\fB\fIHungarian_Forint \fP\fP
+.TP
+\fB\fISwedish_Krona \fP\fP
+.TP
+\fB\fINorwegian_Krone \fP\fP
+.TP
+\fB\fIDanish_Krone \fP\fP
+.TP
+\fB\fIPolish_Zloty \fP\fP
+.TP
+\fB\fICzech_Koruna \fP\fP
+.TP
+\fB\fIUkrainian_Hryvnia \fP\fP
+.TP
+\fB\fIRomanian_Leu \fP\fP
+.TP
+\fB\fICroatian_Kuna \fP\fP
+.TP
+\fB\fIBulgarian_Lev \fP\fP
+.TP
+\fB\fIIcelandic_Krona \fP\fP
+.TP
+\fB\fIAlbanian_Lek \fP\fP
+.TP
+\fB\fISerbian_Dinar \fP\fP
+.TP
+\fB\fIGibraltar_Pound \fP\fP
+.TP
+\fB\fIMoldovan_Leu \fP\fP
+.TP
+\fB\fIMacedonian_Denar \fP\fP
+.TP
+\fB\fIDutch_Guilder \fP\fP
+.TP
+\fB\fISeborgan_Luigino \fP\fP
+.TP
+\fB\fIJersey_Pound \fP\fP
+.TP
+\fB\fIIsle_of_Man_Pound \fP\fP
+.TP
+\fB\fIGuernsey_Pound \fP\fP
+.TP
+\fB\fIBelarusian_Ruble \fP\fP
+.TP
+\fB\fINew_Belarusian_Ruble \fP\fP
+.TP
+\fB\fIBosnian_Convertible_Marka \fP\fP
+.TP
+\fB\fIUS_Dollar \fP\fP
+.TP
+\fB\fICanadian_Dollar \fP\fP
+.TP
+\fB\fIMexican_Peso \fP\fP
+.TP
+\fB\fIDominican_Peso \fP\fP
+.TP
+\fB\fICosta_Rican_Colon \fP\fP
+.TP
+\fB\fIJamaican_Dollar \fP\fP
+.TP
+\fB\fITrinidadian_Dollar \fP\fP
+.TP
+\fB\fIEast_Caribbean_Dollar \fP\fP
+.TP
+\fB\fIGuatemalan_Quetzal \fP\fP
+.TP
+\fB\fIBarbadian_or_Bajan_Dollar \fP\fP
+.TP
+\fB\fICuban_Convertible_Peso \fP\fP
+.TP
+\fB\fIHonduran_Lempira \fP\fP
+.TP
+\fB\fINicaraguan_Cordoba \fP\fP
+.TP
+\fB\fIBermudian_Dollar \fP\fP
+.TP
+\fB\fIPanamanian_Balboa \fP\fP
+.TP
+\fB\fICaymanian_Dollar \fP\fP
+.TP
+\fB\fIBelizean_Dollar \fP\fP
+.TP
+\fB\fIHaitian_Gourde \fP\fP
+.TP
+\fB\fICuban_Peso \fP\fP
+.TP
+\fB\fISalvadoran_Colon \fP\fP
+.TP
+\fB\fIBahamian_Dollar \fP\fP
+.TP
+\fB\fIIMF_Special \fP\fP
+.TP
+\fB\fIAruban_or_Dutch_Guilder \fP\fP
+.TP
+\fB\fICFP_Franc \fP\fP
+.TP
+\fB\fIAustralian_Dollar \fP\fP
+.TP
+\fB\fINew_Zealand_Dollar \fP\fP
+.TP
+\fB\fIFijian_Dollar \fP\fP
+.TP
+\fB\fIPapua_New_Guinean_Kina \fP\fP
+.TP
+\fB\fISolomon_Islander_Dollar \fP\fP
+.TP
+\fB\fITongan_Paanga \fP\fP
+.TP
+\fB\fINi_Vanuatu_Vatu \fP\fP
+.TP
+\fB\fISamoan_Tala \fP\fP
+.TP
+\fB\fITuvaluan_Dollar \fP\fP
+.TP
+\fB\fIChilean_Peso \fP\fP
+.TP
+\fB\fIBrazilian_Real \fP\fP
+.TP
+\fB\fIColombian_Peso \fP\fP
+.TP
+\fB\fIArgentine_Peso \fP\fP
+.TP
+\fB\fIPeruvian_Sol \fP\fP
+.TP
+\fB\fIVenezuelan_Bolivar \fP\fP
+.TP
+\fB\fIUruguayan_Peso \fP\fP
+.TP
+\fB\fIBolivian_Boliviano \fP\fP
+.TP
+\fB\fIParaguayan_Guarani \fP\fP
+.TP
+\fB\fIGuyanese_Dollar \fP\fP
+.TP
+\fB\fISurinamese_Dollar \fP\fP
+.TP
+\fB\fIFalkland_Island_Pound \fP\fP
+.TP
+\fB\fIBitcoin \fP\fP
+.TP
+\fB\fIGold_Ounce \fP\fP
+.TP
+\fB\fISilver_Ounce \fP\fP
+.TP
+\fB\fIPlatinum_Ounce \fP\fP
+.TP
+\fB\fIPalladium_Ounce \fP\fP
+.TP
+\fB\fINone \fP\fP
+.PP
+Definition at line 139 of file enum\&.h\&.
+.SS "enum \fBenums::File\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIData \fP\fP
+.TP
+\fB\fIAccount \fP\fP
+.TP
+\fB\fIConfig \fP\fP
+.TP
+\fB\fISetting \fP\fP
+.TP
+\fB\fIJson \fP\fP
+.TP
+\fB\fIImage \fP\fP
+.TP
+\fB\fIText \fP\fP
+.PP
+Definition at line 427 of file enum\&.h\&.
+.SS "enum \fBenums::Link\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIUser \fP\fP
+.TP
+\fB\fIOrganization \fP\fP
+.TP
+\fB\fIDuo \fP\fP
+.TP
+\fB\fIGroup \fP\fP
+.TP
+\fB\fIUnit \fP\fP
+.TP
+\fB\fISpysok \fP\fP
+.TP
+\fB\fIRoom \fP\fP
+.TP
+\fB\fIRules \fP\fP
+.PP
+Definition at line 489 of file enum\&.h\&.
+.SS "enum \fBenums::Object\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIPublic \fP\fP
+.TP
+\fB\fIPrivate \fP\fP
+.TP
+\fB\fIRoom \fP\fP
+.TP
+\fB\fIDistrict \fP\fP
+.TP
+\fB\fISpecialList \fP\fP
+.TP
+\fB\fIWork \fP\fP
+.TP
+\fB\fIBigFamily \fP\fP
+.TP
+\fB\fIFamily \fP\fP
+.PP
+Definition at line 107 of file enum\&.h\&.
+.SS "enum \fBenums::OS\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIiOS \fP\fP
+.TP
+\fB\fIMac \fP\fP
+.TP
+\fB\fILinux \fP\fP
+.TP
+\fB\fIAndroid \fP\fP
+.TP
+\fB\fIWindows \fP\fP
+.TP
+\fB\fIKubuntu \fP\fP
+.PP
+Definition at line 375 of file enum\&.h\&.
+.SS "enum \fBenums::RequestToServer\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILogin \fP\fP
+.TP
+\fB\fIRegistrate \fP\fP
+.TP
+\fB\fIRemindLogin \fP\fP
+.TP
+\fB\fIRemindPassword \fP\fP
+.TP
+\fB\fIPing \fP\fP
+.TP
+\fB\fISiteLink \fP\fP
+.TP
+\fB\fITieAccount \fP\fP
+.TP
+\fB\fITieRoom \fP\fP
+.TP
+\fB\fIFollowRoom \fP\fP
+.TP
+\fB\fIAddContact \fP\fP
+.TP
+\fB\fISendUpdateData \fP\fP
+.TP
+\fB\fICheckUpdateData \fP\fP
+.PP
+Definition at line 71 of file enum\&.h\&.
+.SS "enum \fBenums::Save\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIOnlyCurrent \fP\fP
+.TP
+\fB\fISaveAll \fP\fP
+.TP
+\fB\fISaveDay \fP\fP
+.TP
+\fB\fISaveWeek \fP\fP
+.TP
+\fB\fISaveMonth \fP\fP
+.TP
+\fB\fISaveSeason \fP\fP
+.TP
+\fB\fISaveHalfOfYear \fP\fP
+.TP
+\fB\fISaveYear \fP\fP
+.PP
+Definition at line 94 of file enum\&.h\&.
+.SS "enum \fBenums::Saving\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fITemporary \fP\fP
+.TP
+\fB\fILocal \fP\fP
+.TP
+\fB\fISync \fP\fP
+.TP
+\fB\fIServer \fP\fP
+.PP
+Definition at line 399 of file enum\&.h\&.
+.SS "enum \fBenums::Schedule\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIOnce \fP\fP
+.TP
+\fB\fIHourly \fP\fP
+.TP
+\fB\fISixHourly \fP\fP
+.TP
+\fB\fIDaily \fP\fP
+.TP
+\fB\fIWeekly \fP\fP
+.TP
+\fB\fIMonthly \fP\fP
+.TP
+\fB\fIYearly \fP\fP
+.PP
+Definition at line 386 of file enum\&.h\&.
+.SS "enum \fBenums::SendStatus\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fISend \fP\fP
+.TP
+\fB\fIFailed \fP\fP
+.TP
+\fB\fISuccess \fP\fP
+.PP
+Definition at line 130 of file enum\&.h\&.
+.SS "enum \fBenums::SortBy\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIAlphabet \fP\fP
+.TP
+\fB\fIDateCreated \fP\fP
+.TP
+\fB\fIDateUpdated \fP\fP
+.TP
+\fB\fICompleting \fP\fP
+.TP
+\fB\fIValue \fP\fP
+.TP
+\fB\fIPriority \fP\fP
+.TP
+\fB\fIDuration \fP\fP
+.TP
+\fB\fISaturation \fP\fP
+.PP
+Definition at line 476 of file enum\&.h\&.
+.SS "enum \fBenums::SortDirection\fP : uint16_t\fC [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIDirect \fP\fP
+.TP
+\fB\fIReverse \fP\fP
+.PP
+Definition at line 469 of file enum\&.h\&.
+.SS "enum \fBenums::SortSensitive\fP : uint16_t\fC [strong]\fP"
+Sorting: basi cs |||| ||-type |||| ||-|| |-diretion |||| ||-|| |-|-number priority |||| ||-|| |-|-|case sensivity |||| ||-|| |-|-|-| 0b 1111 00-tt t-d-n-s s - sensitives d - direction n - number priority t - type of sort 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fICaseSensitive \fP\fP
+.TP
+\fB\fICaseInsensitive \fP\fP
+.TP
+\fB\fINumberCaseSensitive \fP\fP
+.TP
+\fB\fINumberCaseInsensitive \fP\fP
+.PP
+Definition at line 460 of file enum\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "std::string enums::toString (const \fBAccess\fP & acs)"
+
+.SS "std::string enums::toString (const \fBAccountType\fP & acc)"
+
+.SS "std::string enums::toString (const \fBAction\fP & a)"
+
+.SS "std::string enums::toString (const \fBAnchor\fP & an)"
+
+.SS "std::string enums::toString (const \fBAttribute\fP & attr)"
+
+.SS "std::string enums::toString (const \fBComplete\fP & c)"
+
+.SS "std::string enums::toString (const \fBCompress\fP & c)"
+
+.SS "std::string enums::toString (const \fBContinent\fP & c)"
+
+.SS "std::string enums::toString (const \fBFile\fP & f)"
+
+.SS "std::string enums::toString (const \fBLink\fP & l)"
+
+.SS "std::string enums::toString (const \fBObject\fP & obj)"
+
+.SS "std::string enums::toString (const \fBOS\fP & os)"
+
+.SS "std::string enums::toString (const \fBRequestToServer\fP & r)"
+
+.SS "std::string enums::toString (const \fBSave\fP & s)"
+
+.SS "std::string enums::toString (const \fBSaving\fP & ss)"
+
+.SS "std::string enums::toString (const \fBSchedule\fP & sh)"
+
+.SS "std::string enums::toString (const \fBSendStatus\fP & ss)"
+
+.SS "std::string enums::toString (const \fBSortBy\fP & s)"
+
+.SS "std::string enums::toString (const \fBSortDirection\fP & s)"
+
+.SS "std::string enums::toString (const \fBSortSensitive\fP & s)"
+
+.SH "Variable Documentation"
+.PP 
+.SS "const auto enums::Access_0 = \fBAccess::Owner\fP"
+
+.PP
+Definition at line 127 of file enum\&.h\&.
+.SS "const auto enums::AccountType_0 = \fBAccountType::Unknown\fP"
+
+.PP
+Definition at line 338 of file enum\&.h\&.
+.SS "const auto enums::Action_0 = \fBAction::Add\fP"
+
+.PP
+Definition at line 415 of file enum\&.h\&.
+.SS "const auto enums::Anchor_0 = \fBAnchor::Unarchor\fP"
+
+.PP
+Definition at line 359 of file enum\&.h\&.
+.SS "const auto enums::Attribute_0 = \fBAttribute::None\fP"
+
+.PP
+Definition at line 68 of file enum\&.h\&.
+.SS "const auto enums::Complete_0 = \fBComplete::Unnecessary\fP"
+
+.PP
+Definition at line 424 of file enum\&.h\&.
+.SS "const auto enums::Compress_0 = \fBCompress::NotAtAll\fP"
+
+.PP
+Definition at line 445 of file enum\&.h\&.
+.SS "const auto enums::Continent_0 = \fBContinent::Unknown\fP"
+
+.PP
+Definition at line 372 of file enum\&.h\&.
+.SS "const auto enums::File_0 = \fBFile::Data\fP"
+
+.PP
+Definition at line 436 of file enum\&.h\&.
+.SS "const auto enums::Link_0 = \fBLink::User\fP"
+
+.PP
+Definition at line 499 of file enum\&.h\&.
+.SS "const auto enums::Object_0 = \fBObject::Public\fP"
+
+.PP
+Definition at line 117 of file enum\&.h\&.
+.SS "const auto enums::OS_0 = \fBOS::iOS\fP"
+
+.PP
+Definition at line 383 of file enum\&.h\&.
+.SS "const auto enums::Request_0 = \fBRequestToServer::Login\fP"
+
+.PP
+Definition at line 91 of file enum\&.h\&.
+.SS "const auto enums::Save_0 = \fBSave::OnlyCurrent\fP"
+
+.PP
+Definition at line 104 of file enum\&.h\&.
+.SS "const auto enums::Saving_0 = \fBSaving::Temporary\fP"
+
+.PP
+Definition at line 405 of file enum\&.h\&.
+.SS "const auto enums::Schedule_0 = \fBSchedule::None\fP"
+
+.PP
+Definition at line 396 of file enum\&.h\&.
+.SS "const auto enums::SendStatus_0 = \fBSendStatus::None\fP"
+
+.PP
+Definition at line 136 of file enum\&.h\&.
+.SS "const auto enums::SortBy_0 = \fBSortBy::Alphabet\fP"
+
+.PP
+Definition at line 486 of file enum\&.h\&.
+.SS "const auto enums::SortDirection_0 = \fBSortDirection::Direct\fP"
+
+.PP
+Definition at line 473 of file enum\&.h\&.
+.SS "const auto enums::SortSensitive_0 = \fBSortSensitive::CaseSensitive\fP"
+
+.PP
+Definition at line 466 of file enum\&.h\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

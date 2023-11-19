@@ -1,0 +1,130 @@
+\hypertarget{classLink}{}\doxysection{Link Class Reference}
+\label{classLink}\index{Link@{Link}}
+
+
+{\ttfamily \#include $<$link.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLink_a1918a8473cee40bbed17b8e926cb85d9}{Link}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static QString \mbox{\hyperlink{classLink_aa9077847f170529eac831a1410f93ea6}{id\+To\+String}} (\mbox{\hyperlink{namespaceenums_aca1536b8b7cf86c64c7f25f2e99b3378}{enums\+::\+Link}} prefix, uint64\+\_\+t id, uint64\+\_\+t id2=0)
+\item 
+static QString \mbox{\hyperlink{classLink_aeb7dc78226dd25874e4b03112814a586}{id\+To\+String}} (uint64\+\_\+t id, uint8\+\_\+t size, uint8\+\_\+t prefix=0)
+\item 
+static QString \mbox{\hyperlink{classLink_aa9cbea611dd945d1f49c9f0382498f36}{id\+To\+String}} (\mbox{\hyperlink{namespaceenums_aca1536b8b7cf86c64c7f25f2e99b3378}{enums\+::\+Link}} subprefix, uint32\+\_\+t sub, \mbox{\hyperlink{namespaceenums_aca1536b8b7cf86c64c7f25f2e99b3378}{enums\+::\+Link}} prefix, uint64\+\_\+t id, uint64\+\_\+t id2=0)
+\item 
+static uint64\+\_\+t \mbox{\hyperlink{classLink_a194e2620fe8ec59bf55aab821765c303}{id\+From\+String}} (QString strid)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLinkKey}{Link\+Key}} $\ast$ \mbox{\hyperlink{classLink_a315b17f80df25ed884ac82163ec64e5c}{m\+\_\+key}}
+\item 
+\mbox{\hyperlink{namespaceenums_a6df1ccb433eaad098f89a0da6db61520}{enums\+::\+Attribute}} \mbox{\hyperlink{classLink_afdf45a447da0731b4d189df1fc9c454c}{m\+\_\+type}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+QData\+Stream \& \mbox{\hyperlink{classLink_af104611b16c7cc51d10ca63fa380cb44}{operator$>$$>$}} (QData\+Stream \&s, \mbox{\hyperlink{classLink}{Link}} li)
+\item 
+QData\+Stream \& \mbox{\hyperlink{classLink_a256ed0e7abca25402b028cd4783b0573}{operator$<$$<$}} (QData\+Stream \&s, \mbox{\hyperlink{classLink}{Link}} li)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 11 of file link.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classLink_a1918a8473cee40bbed17b8e926cb85d9}\label{classLink_a1918a8473cee40bbed17b8e926cb85d9}} 
+\index{Link@{Link}!Link@{Link}}
+\index{Link@{Link}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{Link()}{Link()}}
+{\footnotesize\ttfamily Link\+::\+Link (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLink_a194e2620fe8ec59bf55aab821765c303}\label{classLink_a194e2620fe8ec59bf55aab821765c303}} 
+\index{Link@{Link}!idFromString@{idFromString}}
+\index{idFromString@{idFromString}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{idFromString()}{idFromString()}}
+{\footnotesize\ttfamily static uint64\+\_\+t Link\+::id\+From\+String (\begin{DoxyParamCaption}\item[{QString}]{strid }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classLink_aa9077847f170529eac831a1410f93ea6}\label{classLink_aa9077847f170529eac831a1410f93ea6}} 
+\index{Link@{Link}!idToString@{idToString}}
+\index{idToString@{idToString}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{idToString()}{idToString()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static QString Link\+::id\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceenums_aca1536b8b7cf86c64c7f25f2e99b3378}{enums\+::\+Link}}}]{prefix,  }\item[{uint64\+\_\+t}]{id,  }\item[{uint64\+\_\+t}]{id2 = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classLink_aa9cbea611dd945d1f49c9f0382498f36}\label{classLink_aa9cbea611dd945d1f49c9f0382498f36}} 
+\index{Link@{Link}!idToString@{idToString}}
+\index{idToString@{idToString}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{idToString()}{idToString()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static QString Link\+::id\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceenums_aca1536b8b7cf86c64c7f25f2e99b3378}{enums\+::\+Link}}}]{subprefix,  }\item[{uint32\+\_\+t}]{sub,  }\item[{\mbox{\hyperlink{namespaceenums_aca1536b8b7cf86c64c7f25f2e99b3378}{enums\+::\+Link}}}]{prefix,  }\item[{uint64\+\_\+t}]{id,  }\item[{uint64\+\_\+t}]{id2 = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classLink_aeb7dc78226dd25874e4b03112814a586}\label{classLink_aeb7dc78226dd25874e4b03112814a586}} 
+\index{Link@{Link}!idToString@{idToString}}
+\index{idToString@{idToString}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{idToString()}{idToString()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static QString Link\+::id\+To\+String (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{id,  }\item[{uint8\+\_\+t}]{size,  }\item[{uint8\+\_\+t}]{prefix = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classLink_a256ed0e7abca25402b028cd4783b0573}\label{classLink_a256ed0e7abca25402b028cd4783b0573}} 
+\index{Link@{Link}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily QData\+Stream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{QData\+Stream \&}]{s,  }\item[{\mbox{\hyperlink{classLink}{Link}}}]{li }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 9 of file link.\+cpp.
+
+\mbox{\Hypertarget{classLink_af104611b16c7cc51d10ca63fa380cb44}\label{classLink_af104611b16c7cc51d10ca63fa380cb44}} 
+\index{Link@{Link}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily QData\+Stream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{QData\+Stream \&}]{s,  }\item[{\mbox{\hyperlink{classLink}{Link}}}]{li }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 5 of file link.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classLink_a315b17f80df25ed884ac82163ec64e5c}\label{classLink_a315b17f80df25ed884ac82163ec64e5c}} 
+\index{Link@{Link}!m\_key@{m\_key}}
+\index{m\_key@{m\_key}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{m\_key}{m\_key}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classLinkKey}{Link\+Key}}$\ast$ Link\+::m\+\_\+key\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 26 of file link.\+h.
+
+\mbox{\Hypertarget{classLink_afdf45a447da0731b4d189df1fc9c454c}\label{classLink_afdf45a447da0731b4d189df1fc9c454c}} 
+\index{Link@{Link}!m\_type@{m\_type}}
+\index{m\_type@{m\_type}!Link@{Link}}
+\doxysubsubsection{\texorpdfstring{m\_type}{m\_type}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceenums_a6df1ccb433eaad098f89a0da6db61520}{enums\+::\+Attribute}} Link\+::m\+\_\+type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 36 of file link.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/tree/include/\mbox{\hyperlink{link_8h}{link.\+h}}\end{DoxyCompactItemize}

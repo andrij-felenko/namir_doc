@@ -1,0 +1,173 @@
+.TH "build-src-Desktop_Qt_6_4_2_GCC_64bit-Debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" 3 "Sun Mar 5 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+build-src-Desktop_Qt_6_4_2_GCC_64bit-Debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fB__has_include\fP(x)   0"
+.br
+.ti -1c
+.RI "#define \fBCOMPILER_ID\fP   ''"
+.br
+.ti -1c
+.RI "#define \fBSTRINGIFY_HELPER\fP(X)   #X"
+.br
+.ti -1c
+.RI "#define \fBSTRINGIFY\fP(X)   \fBSTRINGIFY_HELPER\fP(X)"
+.br
+.ti -1c
+.RI "#define \fBPLATFORM_ID\fP"
+.br
+.ti -1c
+.RI "#define \fBARCHITECTURE_ID\fP"
+.br
+.ti -1c
+.RI "#define \fBDEC\fP(n)"
+.br
+.ti -1c
+.RI "#define \fBHEX\fP(n)"
+.br
+.ti -1c
+.RI "#define \fBC_VERSION\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (int argc, char *argv[])"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "char const  * \fBinfo_compiler\fP = 'INFO' ':' 'compiler[' COMPILER_ID ']'"
+.br
+.ti -1c
+.RI "char const  * \fBinfo_platform\fP = 'INFO' ':' 'platform[' PLATFORM_ID ']'"
+.br
+.ti -1c
+.RI "char const  * \fBinfo_arch\fP = 'INFO' ':' 'arch[' ARCHITECTURE_ID ']'"
+.br
+.ti -1c
+.RI "const char * \fBinfo_language_standard_default\fP"
+.br
+.ti -1c
+.RI "const char * \fBinfo_language_extensions_default\fP"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define __has_include(x)   0"
+
+.PP
+Definition at line 17 of file CMakeCCompilerId\&.c\&.
+.SS "#define ARCHITECTURE_ID"
+
+.PP
+Definition at line 688 of file CMakeCCompilerId\&.c\&.
+.SS "#define C_VERSION"
+
+.PP
+Definition at line 777 of file CMakeCCompilerId\&.c\&.
+.SS "#define COMPILER_ID   ''"
+
+.PP
+Definition at line 423 of file CMakeCCompilerId\&.c\&.
+.SS "#define DEC(n)"
+\fBValue:\fP
+.PP
+.nf
+  ('0' + (((n) / 10000000)%10)), \
+  ('0' + (((n) / 1000000)%10)),  \
+  ('0' + (((n) / 100000)%10)),   \
+  ('0' + (((n) / 10000)%10)),    \
+  ('0' + (((n) / 1000)%10)),     \
+  ('0' + (((n) / 100)%10)),      \
+  ('0' + (((n) / 10)%10)),       \
+  ('0' +  ((n) % 10))
+.fi
+.PP
+Definition at line 692 of file CMakeCCompilerId\&.c\&.
+.SS "#define HEX(n)"
+\fBValue:\fP
+.PP
+.nf
+  ('0' + ((n)>>28 & 0xF)), \
+  ('0' + ((n)>>24 & 0xF)), \
+  ('0' + ((n)>>20 & 0xF)), \
+  ('0' + ((n)>>16 & 0xF)), \
+  ('0' + ((n)>>12 & 0xF)), \
+  ('0' + ((n)>>8  & 0xF)), \
+  ('0' + ((n)>>4  & 0xF)), \
+  ('0' + ((n)     & 0xF))
+.fi
+.PP
+Definition at line 703 of file CMakeCCompilerId\&.c\&.
+.SS "#define PLATFORM_ID"
+
+.PP
+Definition at line 554 of file CMakeCCompilerId\&.c\&.
+.SS "#define STRINGIFY(X)   \fBSTRINGIFY_HELPER\fP(X)"
+
+.PP
+Definition at line 444 of file CMakeCCompilerId\&.c\&.
+.SS "#define STRINGIFY_HELPER(X)   #X"
+
+.PP
+Definition at line 443 of file CMakeCCompilerId\&.c\&.
+.SH "Function Documentation"
+.PP 
+.SS "int main (int argc, char * argv[])"
+
+.PP
+Definition at line 811 of file CMakeCCompilerId\&.c\&.
+.SH "Variable Documentation"
+.PP 
+.SS "char const* info_arch = 'INFO' ':' 'arch[' ARCHITECTURE_ID ']'"
+
+.PP
+Definition at line 769 of file CMakeCCompilerId\&.c\&.
+.SS "char const* info_compiler = 'INFO' ':' 'compiler[' COMPILER_ID ']'"
+
+.PP
+Definition at line 430 of file CMakeCCompilerId\&.c\&.
+.SS "const char* info_language_extensions_default"
+\fBInitial value:\fP
+.PP
+.nf
+= "INFO" ":" "extensions_default["
+
+
+
+
+
+  "OFF"
+
+"]"
+.fi
+.PP
+Definition at line 793 of file CMakeCCompilerId\&.c\&.
+.SS "const char* info_language_standard_default"
+\fBInitial value:\fP
+.PP
+.nf
+=
+  "INFO" ":" "standard_default[" C_VERSION "]"
+.fi
+.PP
+Definition at line 790 of file CMakeCCompilerId\&.c\&.
+.SS "char const* info_platform = 'INFO' ':' 'platform[' PLATFORM_ID ']'"
+
+.PP
+Definition at line 768 of file CMakeCCompilerId\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

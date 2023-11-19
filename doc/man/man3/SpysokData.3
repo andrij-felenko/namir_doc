@@ -1,0 +1,68 @@
+.TH "SpysokData" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SpysokData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <spysok\&.h>\fP
+.PP
+Inherits \fBLimbIdData\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSpysokData\fP (\fBRules\fP rules=nullptr, \fBLimb\fP parent=nullptr)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBUnitList\fP \fBm_list\fP"
+.br
+.ti -1c
+.RI "\fBRules\fP \fBm_rule\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBSpysokData\fP &sp)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBSpysokData\fP &sp)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file spysok\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SpysokData::SpysokData (\fBRules\fP rules = \fCnullptr\fP, \fBLimb\fP parent = \fCnullptr\fP)"
+
+.PP
+Definition at line 3 of file spysok\&.cpp\&.
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBSpysokData\fP & sp)\fC [friend]\fP"
+
+.SS "QDataStream& operator>> (QDataStream & s, \fBSpysokData\fP & sp)\fC [friend]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBUnitList\fP SpysokData::m_list\fC [private]\fP"
+
+.PP
+Definition at line 20 of file spysok\&.h\&.
+.SS "\fBRules\fP SpysokData::m_rule\fC [private]\fP"
+
+.PP
+Definition at line 21 of file spysok\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

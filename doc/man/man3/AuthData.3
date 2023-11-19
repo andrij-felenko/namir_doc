@@ -1,0 +1,110 @@
+.TH "AuthData" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AuthData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <auth\&.h>\fP
+.PP
+Inherits \fBAccountData\fP\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBemailChanged\fP ()"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAuthData\fP ()"
+.br
+.ti -1c
+.RI "QString \fBemail\fP () const"
+.br
+.ti -1c
+.RI "void \fBsetEmail\fP (const QString &newEmail)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "QString \fBemail\fP"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "QList< QSharedPointer< \fBRoomData\fP > > \fBm_roomlist\fP"
+.br
+.ti -1c
+.RI "QString \fBm_email\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBAuthData\fP &au)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBAuthData\fP &au)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file auth\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AuthData::AuthData ()"
+
+.PP
+Definition at line 4 of file auth\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "QString AuthData::email () const"
+
+.PP
+Definition at line 18 of file auth\&.cpp\&.
+.SS "void AuthData::emailChanged ()\fC [signal]\fP"
+
+.SS "void AuthData::setEmail (const QString & newEmail)"
+
+.PP
+Definition at line 23 of file auth\&.cpp\&.
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBAuthData\fP & au)\fC [friend]\fP"
+
+.PP
+Definition at line 13 of file auth\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBAuthData\fP & au)\fC [friend]\fP"
+
+.PP
+Definition at line 9 of file auth\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "QString AuthData::m_email\fC [private]\fP"
+
+.PP
+Definition at line 31 of file auth\&.h\&.
+.SS "QList<QSharedPointer <\fBRoomData\fP> > AuthData::m_roomlist\fC [private]\fP"
+
+.PP
+Definition at line 30 of file auth\&.h\&.
+.SH "Property Documentation"
+.PP 
+.SS "QString AuthData::email\fC [read]\fP, \fC [write]\fP"
+
+.PP
+Definition at line 35 of file auth\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

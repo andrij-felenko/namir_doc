@@ -1,0 +1,95 @@
+.TH "FieldData" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <field\&.h>\fP
+.PP
+Inherits \fBLimbData\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFieldData\fP (\fBenums::Attribute\fP \fBattr\fP, QVariant \fBvalue\fP)"
+.br
+.ti -1c
+.RI "\fBenums::Attribute\fP \fBattr\fP () const"
+.br
+.ti -1c
+.RI "QVariant \fBvalue\fP () const"
+.br
+.ti -1c
+.RI "int \fBmax\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBenums::Attribute\fP \fBm_attr\fP"
+.br
+.ti -1c
+.RI "QVariant \fBm_value\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBFieldData\fP &f)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBFieldData\fP &f)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file field\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldData::FieldData (\fBenums::Attribute\fP attr, QVariant value)"
+
+.PP
+Definition at line 4 of file field\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBenums::Attribute\fP FieldData::attr () const"
+
+.PP
+Definition at line 9 of file field\&.cpp\&.
+.SS "int FieldData::max ()"
+
+.PP
+Definition at line 19 of file field\&.cpp\&.
+.SS "QVariant FieldData::value () const"
+
+.PP
+Definition at line 14 of file field\&.cpp\&.
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBFieldData\fP & f)\fC [friend]\fP"
+
+.PP
+Definition at line 29 of file field\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBFieldData\fP & f)\fC [friend]\fP"
+
+.PP
+Definition at line 24 of file field\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBenums::Attribute\fP FieldData::m_attr\fC [private]\fP"
+
+.PP
+Definition at line 23 of file field\&.h\&.
+.SS "QVariant FieldData::m_value\fC [private]\fP"
+
+.PP
+Definition at line 24 of file field\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

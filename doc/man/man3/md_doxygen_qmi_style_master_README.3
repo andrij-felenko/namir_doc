@@ -1,0 +1,58 @@
+.TH "md_doxygen_qmi_style_master_README" 3 "Sun Mar 5 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_doxygen_qmi_style_master_README \- README 
+Qmi is a '**Q**t **Mi**nimal' theme for the Doxygen HTML documentation\&. It based on official Qt4 documentation's style\&.
+.PP
+.SH "How to setup"
+.PP
+.PP
+To use \fCqmi\fP style make the following changes in your Doxyfile: 
+.PP
+.nf
+# Project section
+BRIEF_MEMBER_DESC = NO
+
+# HTML section
+HTML_HEADER = ${path_to_qmi}/header.html
+HTML_FOOTER = ${path_to_qmi}/footer.html
+HTML_STYLESHEET = ${path_to_qmi}/qmi.css
+
+.fi
+.PP
+ \fBNOTE\fP:
+.PP
+.IP "\(bu" 2
+If you use **_tree navigation panel_** then copy contents of the \fCnavtree\fP dir to the documentation html dir\&.
+.IP "\(bu" 2
+If you use **_search_** feature then copy contents of the \fCsearch\fP dir to the \fChtml/search\fP\&.
+.PP
+.PP
+.SH "Examples"
+.PP
+.PP
+If you want to see \fCqmi\fP style in action then use the following links with examples:
+.PP
+.IP "\(bu" 2
+\fCQwt docs\fP
+.IP "\(bu" 2
+\fClibxml++ docs\fP (with tree navigation and search)
+.PP
+.PP
+.SS "Screenshots"
+.PP
+.IP "\(bu" 2
+\fBMain page\fP:
+.PP
+
+.IP "\(bu" 2
+\fBIndex page\fP:
+.PP
+
+.IP "\(bu" 2
+\fBMember description\fP:
+.PP
+ 
+.PP
+

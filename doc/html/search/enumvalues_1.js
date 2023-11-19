@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['bahamian_5fdollar_857',['Bahamian_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da6ddecfd425c19f6ae53db2becf1e373b',1,'enums']]],
+  ['bahraini_5fdinar_858',['Bahraini_Dinar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60daf046c45baa2be267fc87cde89034d1a2',1,'enums']]],
+  ['bangladeshi_5ftaka_859',['Bangladeshi_Taka',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da5b50ad729c133556852910f41ae73096',1,'enums']]],
+  ['barbadian_5for_5fbajan_5fdollar_860',['Barbadian_or_Bajan_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60daba616b8c39c8e4b792c45c6a261247ad',1,'enums']]],
+  ['basotho_5floti_861',['Basotho_Loti',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60dafb501ef647537652cf478f7ec6623cca',1,'enums']]],
+  ['belarusian_5fruble_862',['Belarusian_Ruble',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da28eeef49a64a02a21b404f19bd6031bc',1,'enums']]],
+  ['belizean_5fdollar_863',['Belizean_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da772346bbb5f688d4c6e67602fc7e32d6',1,'enums']]],
+  ['bermudian_5fdollar_864',['Bermudian_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da61c33bc53d0a6c6ed58a5dcac21f7c16',1,'enums']]],
+  ['bhutanese_5fngultrum_865',['Bhutanese_Ngultrum',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60daeee0c8c3ea429dac673064dc22f81112',1,'enums']]],
+  ['bigfamily_866',['BigFamily',['../d1/d2e/namespaceenums.html#a0fce889e2b336d46a3abce73eb31eec2acc0fbc50aec15901d89ee17225c2b630',1,'enums']]],
+  ['bitcoin_867',['Bitcoin',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60dad023ec040f79f1a9b2ac960b43785089',1,'enums']]],
+  ['blue_868',['blue',['../dd/d67/namespaceMyLibrary.html#a79a9f4bbb675f6c082b09249c5a95ceda3d4a113e58853e5d81725d92fbfceb4d',1,'MyLibrary']]],
+  ['bolivian_5fboliviano_869',['Bolivian_Boliviano',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60daf7bde3dfba79d9b4af60a3b59ef0ef16',1,'enums']]],
+  ['bool_5f_870',['bool_',['../dc/d03/namespacenamir.html#a91176b4673372b50aaf1004399d48c2ba467afb5838aa377d55cce81f84c5512b',1,'namir::bool_()'],['../dc/d03/namespacenamir.html#a91176b4673372b50aaf1004399d48c2ba467afb5838aa377d55cce81f84c5512b',1,'namir::bool_()'],['../dc/d03/namespacenamir.html#a91176b4673372b50aaf1004399d48c2ba467afb5838aa377d55cce81f84c5512b',1,'namir::bool_()'],['../dc/d03/namespacenamir.html#a91176b4673372b50aaf1004399d48c2ba467afb5838aa377d55cce81f84c5512b',1,'namir::bool_()']]],
+  ['bosnian_5fconvertible_5fmarka_871',['Bosnian_Convertible_Marka',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da63284c917aa4825e8baf942089c77dc4',1,'enums']]],
+  ['botswana_5fpula_872',['Botswana_Pula',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da8bbb25397dd669ed1d3d1c753dcb0e00',1,'enums']]],
+  ['bottom_873',['Bottom',['../d1/d2e/namespaceenums.html#aa836f14f5a71709d493f7599cf125835a2ad9d63b69c4a10a5cc9cad923133bc4',1,'enums']]],
+  ['brazilian_5freal_874',['Brazilian_Real',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60dac5fcba6617950d4fc06cc0cbecf5178e',1,'enums']]],
+  ['british_5fpound_875',['British_Pound',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da4f32296b76b7dba50023fc3b8b64f514',1,'enums']]],
+  ['bruneian_5fdollar_876',['Bruneian_Dollar',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da5f9545b78737dec3edea54fc8ed856b9',1,'enums']]],
+  ['bulgarian_5flev_877',['Bulgarian_Lev',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da9639f483ffd2732959b4d7ca16992064',1,'enums']]],
+  ['burmese_5fkyat_878',['Burmese_Kyat',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60da32e5db4213fdb70dc9884fc63ad01c25',1,'enums']]],
+  ['burundian_5ffranc_879',['Burundian_Franc',['../d1/d2e/namespaceenums.html#a5aee08cbae290c5a1c54232725f2f60dac14655bf6d56cdac736590fc03a26a5b',1,'enums']]]
+];

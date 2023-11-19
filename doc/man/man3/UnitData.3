@@ -1,0 +1,72 @@
+.TH "UnitData" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnitData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <unit\&.h>\fP
+.PP
+Inherits \fBLimbIdData\fP, and \fBHistory\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBUnitData\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBFieldList\fP \fBm_fieldlist\fP"
+.br
+.ti -1c
+.RI "\fBRules\fP \fBm_rule\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBUnitData\fP un)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBUnitData\fP un)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 8 of file unit\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "UnitData::UnitData ()"
+
+.PP
+Definition at line 4 of file unit\&.cpp\&.
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBUnitData\fP un)\fC [friend]\fP"
+
+.PP
+Definition at line 14 of file unit\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBUnitData\fP un)\fC [friend]\fP"
+
+.PP
+Definition at line 9 of file unit\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBFieldList\fP UnitData::m_fieldlist\fC [private]\fP"
+
+.PP
+Definition at line 21 of file unit\&.h\&.
+.SS "\fBRules\fP UnitData::m_rule\fC [private]\fP"
+
+.PP
+Definition at line 22 of file unit\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

@@ -1,0 +1,159 @@
+\hypertarget{classAuthData}{}\doxysection{Auth\+Data Class Reference}
+\label{classAuthData}\index{AuthData@{AuthData}}
+
+
+{\ttfamily \#include $<$auth.\+h$>$}
+
+Inheritance diagram for Auth\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{d3/d2d/classAuthData}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classAuthData_a5a4c6f1a44bec4c07a7b88014ab2b17c}{email\+Changed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAuthData_a4179c0bd8bf67ddb7f0be3641638de1b}{Auth\+Data}} ()
+\item 
+QString \mbox{\hyperlink{classAuthData_a2f8fcb6eebbfb0dce3d627aa3a56179c}{email}} () const
+\item 
+void \mbox{\hyperlink{classAuthData_a111af713704725c3d9540943e910efda}{set\+Email}} (const QString \&new\+Email)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{classAuthData_a4c9d72a8cc678a649e4fe35b7899b6c6}{email}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QList$<$ QShared\+Pointer$<$ \mbox{\hyperlink{classRoomData}{Room\+Data}} $>$ $>$ \mbox{\hyperlink{classAuthData_acc302cc5cb98fc5d62ecb2c9d7ae7e99}{m\+\_\+roomlist}}
+\item 
+QString \mbox{\hyperlink{classAuthData_a6385325ab13460df1844cec3e1a99f15}{m\+\_\+email}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+QData\+Stream \& \mbox{\hyperlink{classAuthData_a0092b4cea41c76d9962cfe7baf5fb6e1}{operator$>$$>$}} (QData\+Stream \&s, \mbox{\hyperlink{classAuthData}{Auth\+Data}} \&au)
+\item 
+QData\+Stream \& \mbox{\hyperlink{classAuthData_aeb3295909f738251e97d3d3881a651cd}{operator$<$$<$}} (QData\+Stream \&s, \mbox{\hyperlink{classAuthData}{Auth\+Data}} \&au)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file auth.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAuthData_a4179c0bd8bf67ddb7f0be3641638de1b}\label{classAuthData_a4179c0bd8bf67ddb7f0be3641638de1b}} 
+\index{AuthData@{AuthData}!AuthData@{AuthData}}
+\index{AuthData@{AuthData}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{AuthData()}{AuthData()}}
+{\footnotesize\ttfamily Auth\+Data\+::\+Auth\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 4 of file auth.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAuthData_a2f8fcb6eebbfb0dce3d627aa3a56179c}\label{classAuthData_a2f8fcb6eebbfb0dce3d627aa3a56179c}} 
+\index{AuthData@{AuthData}!email@{email}}
+\index{email@{email}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{email()}{email()}}
+{\footnotesize\ttfamily QString Auth\+Data\+::email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 18 of file auth.\+cpp.
+
+\mbox{\Hypertarget{classAuthData_a5a4c6f1a44bec4c07a7b88014ab2b17c}\label{classAuthData_a5a4c6f1a44bec4c07a7b88014ab2b17c}} 
+\index{AuthData@{AuthData}!emailChanged@{emailChanged}}
+\index{emailChanged@{emailChanged}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{emailChanged}{emailChanged}}
+{\footnotesize\ttfamily void Auth\+Data\+::email\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{classAuthData_a111af713704725c3d9540943e910efda}\label{classAuthData_a111af713704725c3d9540943e910efda}} 
+\index{AuthData@{AuthData}!setEmail@{setEmail}}
+\index{setEmail@{setEmail}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{setEmail()}{setEmail()}}
+{\footnotesize\ttfamily void Auth\+Data\+::set\+Email (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Email }\end{DoxyParamCaption})}
+
+
+
+Definition at line 23 of file auth.\+cpp.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classAuthData_aeb3295909f738251e97d3d3881a651cd}\label{classAuthData_aeb3295909f738251e97d3d3881a651cd}} 
+\index{AuthData@{AuthData}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily QData\+Stream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{QData\+Stream \&}]{s,  }\item[{\mbox{\hyperlink{classAuthData}{Auth\+Data}} \&}]{au }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 13 of file auth.\+cpp.
+
+\mbox{\Hypertarget{classAuthData_a0092b4cea41c76d9962cfe7baf5fb6e1}\label{classAuthData_a0092b4cea41c76d9962cfe7baf5fb6e1}} 
+\index{AuthData@{AuthData}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily QData\+Stream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{QData\+Stream \&}]{s,  }\item[{\mbox{\hyperlink{classAuthData}{Auth\+Data}} \&}]{au }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 9 of file auth.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classAuthData_a6385325ab13460df1844cec3e1a99f15}\label{classAuthData_a6385325ab13460df1844cec3e1a99f15}} 
+\index{AuthData@{AuthData}!m\_email@{m\_email}}
+\index{m\_email@{m\_email}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{m\_email}{m\_email}}
+{\footnotesize\ttfamily QString Auth\+Data\+::m\+\_\+email\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 31 of file auth.\+h.
+
+\mbox{\Hypertarget{classAuthData_acc302cc5cb98fc5d62ecb2c9d7ae7e99}\label{classAuthData_acc302cc5cb98fc5d62ecb2c9d7ae7e99}} 
+\index{AuthData@{AuthData}!m\_roomlist@{m\_roomlist}}
+\index{m\_roomlist@{m\_roomlist}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{m\_roomlist}{m\_roomlist}}
+{\footnotesize\ttfamily QList$<$QShared\+Pointer $<$\mbox{\hyperlink{classRoomData}{Room\+Data}}$>$ $>$ Auth\+Data\+::m\+\_\+roomlist\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 30 of file auth.\+h.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classAuthData_a4c9d72a8cc678a649e4fe35b7899b6c6}\label{classAuthData_a4c9d72a8cc678a649e4fe35b7899b6c6}} 
+\index{AuthData@{AuthData}!email@{email}}
+\index{email@{email}!AuthData@{AuthData}}
+\doxysubsubsection{\texorpdfstring{email}{email}}
+{\footnotesize\ttfamily QString Auth\+Data\+::email\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}}
+
+
+
+Definition at line 35 of file auth.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/tree/include/\mbox{\hyperlink{auth_8h}{auth.\+h}}\item 
+src/tree/\mbox{\hyperlink{auth_8cpp}{auth.\+cpp}}\end{DoxyCompactItemize}

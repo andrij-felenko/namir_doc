@@ -1,0 +1,192 @@
+.TH "economy::Currencies" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+economy::Currencies
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <enum\&.h>\fP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBSingle\fP"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBCurrencies\fP & \fBinstance\fP ()"
+.br
+.ti -1c
+.RI "static \fBenums::Currency\fP \fBtoEnum\fP (std::string currency)"
+.br
+.ti -1c
+.RI "static std::string \fBtoFull\fP (\fBenums::Currency\fP type)"
+.br
+.ti -1c
+.RI "static std::string \fBtoFull\fP (std::string m_short)"
+.br
+.ti -1c
+.RI "static std::string \fBtoShort\fP (\fBenums::Currency\fP type)"
+.br
+.ti -1c
+.RI "static std::string \fBtoShort\fP (std::string full)"
+.br
+.ti -1c
+.RI "static \fBenums::Currency\fP \fBfromShort\fP (std::string currency)"
+.br
+.ti -1c
+.RI "static std::list< std::string > \fBallShort\fP ()"
+.br
+.ti -1c
+.RI "static \fBenums::Continent\fP \fBcontinent\fP (std::string name)"
+.br
+.ti -1c
+.RI "static \fBenums::Continent\fP \fBcontinent\fP (\fBenums::Currency\fP type)"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCurrencies\fP ()"
+.br
+.ti -1c
+.RI "\fBCurrencies\fP (\fBCurrencies\fP const &)=delete"
+.br
+.ti -1c
+.RI "void \fBoperator=\fP (\fBCurrencies\fP const &)=delete"
+.br
+.ti -1c
+.RI "void \fBadd\fP (\fBenums::Currency\fP type, std::string full, std::string short_, \fBenums::Continent\fP \fBcontinent\fP=\fBenums::Continent::Unknown\fP)"
+.br
+.ti -1c
+.RI "void \fBaddAfrica\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddEastAsia\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddWestAsia\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddEurope\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddNorthAmerica\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddOceania\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddSouthAmerica\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::list< \fBSingle\fP > \fBm_list\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 536 of file enum\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "economy::Currencies::Currencies ()\fC [private]\fP"
+
+.PP
+Definition at line 347 of file enum\&.cpp\&.
+.SS "economy::Currencies::Currencies (\fBCurrencies\fP const &)\fC [private]\fP, \fC [delete]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void economy::Currencies::add (\fBenums::Currency\fP type, std::string full, std::string short_, \fBenums::Continent\fP continent = \fC\fBenums::Continent::Unknown\fP\fP)\fC [private]\fP"
+
+.PP
+Definition at line 365 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addAfrica ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 155 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addEastAsia ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 201 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addEurope ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 258 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addNorthAmerica ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 289 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addOceania ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 316 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addSouthAmerica ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 330 of file enum\&.cpp\&.
+.SS "void economy::Currencies::addWestAsia ()\fC [inline]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 229 of file enum\&.cpp\&.
+.SS "std::list< std::string > economy::Currencies::allShort ()\fC [static]\fP"
+
+.PP
+Definition at line 147 of file enum\&.cpp\&.
+.SS "\fBenums::Continent\fP economy::Currencies::continent (\fBenums::Currency\fP type)\fC [static]\fP"
+
+.PP
+Definition at line 139 of file enum\&.cpp\&.
+.SS "\fBenums::Continent\fP economy::Currencies::continent (std::string name)\fC [static]\fP"
+
+.PP
+Definition at line 131 of file enum\&.cpp\&.
+.SS "\fBenums::Currency\fP economy::Currencies::fromShort (std::string currency)\fC [static]\fP"
+
+.PP
+Definition at line 123 of file enum\&.cpp\&.
+.SS "\fBeconomy::Currencies\fP & economy::Currencies::instance ()\fC [static]\fP"
+
+.PP
+Definition at line 77 of file enum\&.cpp\&.
+.SS "void economy::Currencies::operator= (\fBCurrencies\fP const &)\fC [private]\fP, \fC [delete]\fP"
+
+.SS "\fBenums::Currency\fP economy::Currencies::toEnum (std::string currency)\fC [static]\fP"
+
+.PP
+Definition at line 115 of file enum\&.cpp\&.
+.SS "std::string economy::Currencies::toFull (\fBenums::Currency\fP type)\fC [static]\fP"
+
+.PP
+Definition at line 99 of file enum\&.cpp\&.
+.SS "std::string economy::Currencies::toFull (std::string m_short)\fC [static]\fP"
+
+.PP
+Definition at line 107 of file enum\&.cpp\&.
+.SS "std::string economy::Currencies::toShort (\fBenums::Currency\fP type)\fC [static]\fP"
+
+.PP
+Definition at line 83 of file enum\&.cpp\&.
+.SS "std::string economy::Currencies::toShort (std::string full)\fC [static]\fP"
+
+.PP
+Definition at line 91 of file enum\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::list<\fBSingle\fP> economy::Currencies::m_list\fC [private]\fP"
+
+.PP
+Definition at line 564 of file enum\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

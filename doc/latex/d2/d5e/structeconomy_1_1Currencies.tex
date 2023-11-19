@@ -1,0 +1,298 @@
+\hypertarget{structeconomy_1_1Currencies}{}\doxysection{economy\+::Currencies Struct Reference}
+\label{structeconomy_1_1Currencies}\index{economy::Currencies@{economy::Currencies}}
+
+
+{\ttfamily \#include $<$enum.\+h$>$}
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structeconomy_1_1Currencies_1_1Single}{Single}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{structeconomy_1_1Currencies}{Currencies}} \& \mbox{\hyperlink{structeconomy_1_1Currencies_a7288176955b8115137e168669b2ad671}{instance}} ()
+\item 
+static \mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} \mbox{\hyperlink{structeconomy_1_1Currencies_a308da5f9e5a008fee8fbdf144b0b6276}{to\+Enum}} (std\+::string currency)
+\item 
+static std\+::string \mbox{\hyperlink{structeconomy_1_1Currencies_a04bc2f4f7935489111c2b406c6adfbcd}{to\+Full}} (\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} type)
+\item 
+static std\+::string \mbox{\hyperlink{structeconomy_1_1Currencies_a06df1ac74d5cab90d14f05e614917681}{to\+Full}} (std\+::string m\+\_\+short)
+\item 
+static std\+::string \mbox{\hyperlink{structeconomy_1_1Currencies_a1ea3c1ec1c996160c7f1ebc2e74cf439}{to\+Short}} (\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} type)
+\item 
+static std\+::string \mbox{\hyperlink{structeconomy_1_1Currencies_af8fd0f81e1897ff9977b86892420a57c}{to\+Short}} (std\+::string full)
+\item 
+static \mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} \mbox{\hyperlink{structeconomy_1_1Currencies_a7569407f1a73dbc8d73de44c35e8eced}{from\+Short}} (std\+::string currency)
+\item 
+static std\+::list$<$ std\+::string $>$ \mbox{\hyperlink{structeconomy_1_1Currencies_afaf476f23f426158a29c9228eaf39a8d}{all\+Short}} ()
+\item 
+static \mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81}{enums\+::\+Continent}} \mbox{\hyperlink{structeconomy_1_1Currencies_acb9c0667be644c3766c75df04a1522f7}{continent}} (std\+::string name)
+\item 
+static \mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81}{enums\+::\+Continent}} \mbox{\hyperlink{structeconomy_1_1Currencies_aea57d9e65e704c99fcac5405e8812d33}{continent}} (\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structeconomy_1_1Currencies_a3855dbeaa81c1d14e61c0365100e269c}{Currencies}} ()
+\item 
+\mbox{\hyperlink{structeconomy_1_1Currencies_a0748428a0b8ccb19933beb31bef4acc3}{Currencies}} (\mbox{\hyperlink{structeconomy_1_1Currencies}{Currencies}} const \&)=delete
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_abf5bb71dbf07ac0fbf74f301c44b04a4}{operator=}} (\mbox{\hyperlink{structeconomy_1_1Currencies}{Currencies}} const \&)=delete
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_ada0915db88da5acf16d610389c32a883}{add}} (\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} type, std\+::string full, std\+::string short\+\_\+, \mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81}{enums\+::\+Continent}} \mbox{\hyperlink{structeconomy_1_1Currencies_acb9c0667be644c3766c75df04a1522f7}{continent}}=\mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81a88183b946cc5f0e8c96b2e66e1c74a7e}{enums\+::\+Continent\+::\+Unknown}})
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_a6d334b693c07a0224a614d4b232e0532}{add\+Africa}} ()
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_a28701afe24888ac1d10bcec0c4209552}{add\+East\+Asia}} ()
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_a0fe8bb24ca1a394aa476b5c17066db20}{add\+West\+Asia}} ()
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_a5bcee345c0d6aa8882b519a541f10bee}{add\+Europe}} ()
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_ad4b210fc5db332d19ce3408719a78a9f}{add\+North\+America}} ()
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_ac4cf8530e77848a41dc5d244f89024aa}{add\+Oceania}} ()
+\item 
+void \mbox{\hyperlink{structeconomy_1_1Currencies_add34a89206b061eb814738edaff7b81b}{add\+South\+America}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::list$<$ \mbox{\hyperlink{structeconomy_1_1Currencies_1_1Single}{Single}} $>$ \mbox{\hyperlink{structeconomy_1_1Currencies_a57d6e4245dc064bc1510ed0cf6ace8f8}{m\+\_\+list}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 536 of file enum.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a3855dbeaa81c1d14e61c0365100e269c}\label{structeconomy_1_1Currencies_a3855dbeaa81c1d14e61c0365100e269c}} 
+\index{economy::Currencies@{economy::Currencies}!Currencies@{Currencies}}
+\index{Currencies@{Currencies}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{Currencies()}{Currencies()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily economy\+::\+Currencies\+::\+Currencies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 347 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a0748428a0b8ccb19933beb31bef4acc3}\label{structeconomy_1_1Currencies_a0748428a0b8ccb19933beb31bef4acc3}} 
+\index{economy::Currencies@{economy::Currencies}!Currencies@{Currencies}}
+\index{Currencies@{Currencies}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{Currencies()}{Currencies()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily economy\+::\+Currencies\+::\+Currencies (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structeconomy_1_1Currencies}{Currencies}} const \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{structeconomy_1_1Currencies_ada0915db88da5acf16d610389c32a883}\label{structeconomy_1_1Currencies_ada0915db88da5acf16d610389c32a883}} 
+\index{economy::Currencies@{economy::Currencies}!add@{add}}
+\index{add@{add}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}}}]{type,  }\item[{std\+::string}]{full,  }\item[{std\+::string}]{short\+\_\+,  }\item[{\mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81}{enums\+::\+Continent}}}]{continent = {\ttfamily \mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81a88183b946cc5f0e8c96b2e66e1c74a7e}{enums\+::\+Continent\+::\+Unknown}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 365 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a6d334b693c07a0224a614d4b232e0532}\label{structeconomy_1_1Currencies_a6d334b693c07a0224a614d4b232e0532}} 
+\index{economy::Currencies@{economy::Currencies}!addAfrica@{addAfrica}}
+\index{addAfrica@{addAfrica}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addAfrica()}{addAfrica()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+Africa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 155 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a28701afe24888ac1d10bcec0c4209552}\label{structeconomy_1_1Currencies_a28701afe24888ac1d10bcec0c4209552}} 
+\index{economy::Currencies@{economy::Currencies}!addEastAsia@{addEastAsia}}
+\index{addEastAsia@{addEastAsia}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addEastAsia()}{addEastAsia()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+East\+Asia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 201 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a5bcee345c0d6aa8882b519a541f10bee}\label{structeconomy_1_1Currencies_a5bcee345c0d6aa8882b519a541f10bee}} 
+\index{economy::Currencies@{economy::Currencies}!addEurope@{addEurope}}
+\index{addEurope@{addEurope}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addEurope()}{addEurope()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+Europe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 258 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_ad4b210fc5db332d19ce3408719a78a9f}\label{structeconomy_1_1Currencies_ad4b210fc5db332d19ce3408719a78a9f}} 
+\index{economy::Currencies@{economy::Currencies}!addNorthAmerica@{addNorthAmerica}}
+\index{addNorthAmerica@{addNorthAmerica}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addNorthAmerica()}{addNorthAmerica()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+North\+America (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 289 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_ac4cf8530e77848a41dc5d244f89024aa}\label{structeconomy_1_1Currencies_ac4cf8530e77848a41dc5d244f89024aa}} 
+\index{economy::Currencies@{economy::Currencies}!addOceania@{addOceania}}
+\index{addOceania@{addOceania}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addOceania()}{addOceania()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+Oceania (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 316 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_add34a89206b061eb814738edaff7b81b}\label{structeconomy_1_1Currencies_add34a89206b061eb814738edaff7b81b}} 
+\index{economy::Currencies@{economy::Currencies}!addSouthAmerica@{addSouthAmerica}}
+\index{addSouthAmerica@{addSouthAmerica}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addSouthAmerica()}{addSouthAmerica()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+South\+America (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 330 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a0fe8bb24ca1a394aa476b5c17066db20}\label{structeconomy_1_1Currencies_a0fe8bb24ca1a394aa476b5c17066db20}} 
+\index{economy::Currencies@{economy::Currencies}!addWestAsia@{addWestAsia}}
+\index{addWestAsia@{addWestAsia}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{addWestAsia()}{addWestAsia()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::add\+West\+Asia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Definition at line 229 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_afaf476f23f426158a29c9228eaf39a8d}\label{structeconomy_1_1Currencies_afaf476f23f426158a29c9228eaf39a8d}} 
+\index{economy::Currencies@{economy::Currencies}!allShort@{allShort}}
+\index{allShort@{allShort}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{allShort()}{allShort()}}
+{\footnotesize\ttfamily std\+::list$<$ std\+::string $>$ economy\+::\+Currencies\+::all\+Short (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 147 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_aea57d9e65e704c99fcac5405e8812d33}\label{structeconomy_1_1Currencies_aea57d9e65e704c99fcac5405e8812d33}} 
+\index{economy::Currencies@{economy::Currencies}!continent@{continent}}
+\index{continent@{continent}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{continent()}{continent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81}{enums\+::\+Continent}} economy\+::\+Currencies\+::continent (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 139 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_acb9c0667be644c3766c75df04a1522f7}\label{structeconomy_1_1Currencies_acb9c0667be644c3766c75df04a1522f7}} 
+\index{economy::Currencies@{economy::Currencies}!continent@{continent}}
+\index{continent@{continent}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{continent()}{continent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceenums_aaf61bda4ad6af778b8da540a0a483e81}{enums\+::\+Continent}} economy\+::\+Currencies\+::continent (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 131 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a7569407f1a73dbc8d73de44c35e8eced}\label{structeconomy_1_1Currencies_a7569407f1a73dbc8d73de44c35e8eced}} 
+\index{economy::Currencies@{economy::Currencies}!fromShort@{fromShort}}
+\index{fromShort@{fromShort}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{fromShort()}{fromShort()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} economy\+::\+Currencies\+::from\+Short (\begin{DoxyParamCaption}\item[{std\+::string}]{currency }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 123 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a7288176955b8115137e168669b2ad671}\label{structeconomy_1_1Currencies_a7288176955b8115137e168669b2ad671}} 
+\index{economy::Currencies@{economy::Currencies}!instance@{instance}}
+\index{instance@{instance}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structeconomy_1_1Currencies}{economy\+::\+Currencies}} \& economy\+::\+Currencies\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 77 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_abf5bb71dbf07ac0fbf74f301c44b04a4}\label{structeconomy_1_1Currencies_abf5bb71dbf07ac0fbf74f301c44b04a4}} 
+\index{economy::Currencies@{economy::Currencies}!operator=@{operator=}}
+\index{operator=@{operator=}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void economy\+::\+Currencies\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structeconomy_1_1Currencies}{Currencies}} const \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [delete]}}
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a308da5f9e5a008fee8fbdf144b0b6276}\label{structeconomy_1_1Currencies_a308da5f9e5a008fee8fbdf144b0b6276}} 
+\index{economy::Currencies@{economy::Currencies}!toEnum@{toEnum}}
+\index{toEnum@{toEnum}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{toEnum()}{toEnum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}} economy\+::\+Currencies\+::to\+Enum (\begin{DoxyParamCaption}\item[{std\+::string}]{currency }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 115 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a04bc2f4f7935489111c2b406c6adfbcd}\label{structeconomy_1_1Currencies_a04bc2f4f7935489111c2b406c6adfbcd}} 
+\index{economy::Currencies@{economy::Currencies}!toFull@{toFull}}
+\index{toFull@{toFull}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{toFull()}{toFull()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::string economy\+::\+Currencies\+::to\+Full (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 99 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a06df1ac74d5cab90d14f05e614917681}\label{structeconomy_1_1Currencies_a06df1ac74d5cab90d14f05e614917681}} 
+\index{economy::Currencies@{economy::Currencies}!toFull@{toFull}}
+\index{toFull@{toFull}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{toFull()}{toFull()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::string economy\+::\+Currencies\+::to\+Full (\begin{DoxyParamCaption}\item[{std\+::string}]{m\+\_\+short }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 107 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a1ea3c1ec1c996160c7f1ebc2e74cf439}\label{structeconomy_1_1Currencies_a1ea3c1ec1c996160c7f1ebc2e74cf439}} 
+\index{economy::Currencies@{economy::Currencies}!toShort@{toShort}}
+\index{toShort@{toShort}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{toShort()}{toShort()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::string economy\+::\+Currencies\+::to\+Short (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceenums_a5aee08cbae290c5a1c54232725f2f60d}{enums\+::\+Currency}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 83 of file enum.\+cpp.
+
+\mbox{\Hypertarget{structeconomy_1_1Currencies_af8fd0f81e1897ff9977b86892420a57c}\label{structeconomy_1_1Currencies_af8fd0f81e1897ff9977b86892420a57c}} 
+\index{economy::Currencies@{economy::Currencies}!toShort@{toShort}}
+\index{toShort@{toShort}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{toShort()}{toShort()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::string economy\+::\+Currencies\+::to\+Short (\begin{DoxyParamCaption}\item[{std\+::string}]{full }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 91 of file enum.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structeconomy_1_1Currencies_a57d6e4245dc064bc1510ed0cf6ace8f8}\label{structeconomy_1_1Currencies_a57d6e4245dc064bc1510ed0cf6ace8f8}} 
+\index{economy::Currencies@{economy::Currencies}!m\_list@{m\_list}}
+\index{m\_list@{m\_list}!economy::Currencies@{economy::Currencies}}
+\doxysubsubsection{\texorpdfstring{m\_list}{m\_list}}
+{\footnotesize\ttfamily std\+::list$<$\mbox{\hyperlink{structeconomy_1_1Currencies_1_1Single}{Single}}$>$ economy\+::\+Currencies\+::m\+\_\+list\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 564 of file enum.\+h.
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/tree/include/\mbox{\hyperlink{enum_8h}{enum.\+h}}\item 
+src/tree/\mbox{\hyperlink{enum_8cpp}{enum.\+cpp}}\end{DoxyCompactItemize}

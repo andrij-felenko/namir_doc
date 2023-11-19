@@ -1,0 +1,94 @@
+.TH "Link" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Link
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <link\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLink\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static QString \fBidToString\fP (\fBenums::Link\fP prefix, uint64_t id, uint64_t id2=0)"
+.br
+.ti -1c
+.RI "static QString \fBidToString\fP (uint64_t id, uint8_t size, uint8_t prefix=0)"
+.br
+.ti -1c
+.RI "static QString \fBidToString\fP (\fBenums::Link\fP subprefix, uint32_t sub, \fBenums::Link\fP prefix, uint64_t id, uint64_t id2=0)"
+.br
+.ti -1c
+.RI "static uint64_t \fBidFromString\fP (QString strid)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBLinkKey\fP * \fBm_key\fP"
+.br
+.ti -1c
+.RI "\fBenums::Attribute\fP \fBm_type\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBLink\fP li)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBLink\fP li)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file link\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Link::Link ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static uint64_t Link::idFromString (QString strid)\fC [static]\fP"
+
+.SS "static QString Link::idToString (\fBenums::Link\fP prefix, uint64_t id, uint64_t id2 = \fC0\fP)\fC [static]\fP"
+
+.SS "static QString Link::idToString (\fBenums::Link\fP subprefix, uint32_t sub, \fBenums::Link\fP prefix, uint64_t id, uint64_t id2 = \fC0\fP)\fC [static]\fP"
+
+.SS "static QString Link::idToString (uint64_t id, uint8_t size, uint8_t prefix = \fC0\fP)\fC [static]\fP"
+
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBLink\fP li)\fC [friend]\fP"
+
+.PP
+Definition at line 9 of file link\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBLink\fP li)\fC [friend]\fP"
+
+.PP
+Definition at line 5 of file link\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBLinkKey\fP* Link::m_key\fC [private]\fP"
+
+.PP
+Definition at line 26 of file link\&.h\&.
+.SS "\fBenums::Attribute\fP Link::m_type\fC [private]\fP"
+
+.PP
+Definition at line 36 of file link\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

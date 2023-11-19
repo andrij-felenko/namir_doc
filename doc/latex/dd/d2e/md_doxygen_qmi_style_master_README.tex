@@ -1,0 +1,44 @@
+Qmi is a \char`\"{}$\ast$$\ast$\+Q$\ast$$\ast$t $\ast$$\ast$\+Mi$\ast$$\ast$nimal\char`\"{} theme for the Doxygen HTML documentation. It based on official Qt4 documentation\textquotesingle{}s style.
+
+\doxysection*{How to setup}
+
+To use {\ttfamily qmi} style make the following changes in your Doxyfile\+: \begin{DoxyVerb}# Project section
+BRIEF_MEMBER_DESC = NO
+
+# HTML section
+HTML_HEADER = ${path_to_qmi}/header.html
+HTML_FOOTER = ${path_to_qmi}/footer.html
+HTML_STYLESHEET = ${path_to_qmi}/qmi.css
+\end{DoxyVerb}
+ {\bfseries{NOTE}}\+:
+
+
+\begin{DoxyItemize}
+\item If you use $\ast$$\ast$\+\_\+tree navigation panel\+\_\+$\ast$$\ast$ then copy contents of the {\ttfamily navtree} dir to the documentation html dir.
+\item If you use $\ast$$\ast$\+\_\+search\+\_\+$\ast$$\ast$ feature then copy contents of the {\ttfamily search} dir to the {\ttfamily html/search}.
+\end{DoxyItemize}
+
+\doxysection*{Examples}
+
+If you want to see {\ttfamily qmi} style in action then use the following links with examples\+:
+
+
+\begin{DoxyItemize}
+\item \href{http://skozlovf.github.com/doxygen-qmi-style/qwt}{\texttt{ Qwt docs}}
+\item \href{http://skozlovf.github.com/doxygen-qmi-style/libxmlpp}{\texttt{ libxml++ docs}} (with tree navigation and search)
+\end{DoxyItemize}
+
+\doxysubsection*{Screenshots}
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Main page}}\+:
+
+
+\item {\bfseries{Index page}}\+:
+
+
+\item {\bfseries{Member description}}\+:
+
+ 
+\end{DoxyItemize}

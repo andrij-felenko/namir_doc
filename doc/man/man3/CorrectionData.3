@@ -1,0 +1,86 @@
+.TH "CorrectionData" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CorrectionData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <correction\&.h>\fP
+.PP
+Inherits \fBLimbIdData\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCorrectionData\fP (QDateTime dt=QDateTime::currentDateTime())"
+.br
+.ti -1c
+.RI "\fBCorrectionData\fP (\fBFieldList\fP fl, \fBAccount\fP sender, QDateTime dt=QDateTime::currentDateTime())"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBFieldList\fP \fBm_fields\fP"
+.br
+.ti -1c
+.RI "\fBAccount\fP \fBm_sender\fP"
+.br
+.ti -1c
+.RI "QDateTime \fBm_dTime\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBCorrectionData\fP &cor)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBCorrectionData\fP &cor)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file correction\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "CorrectionData::CorrectionData (QDateTime dt = \fCQDateTime::currentDateTime()\fP)"
+
+.PP
+Definition at line 3 of file correction\&.cpp\&.
+.SS "CorrectionData::CorrectionData (\fBFieldList\fP fl, \fBAccount\fP sender, QDateTime dt = \fCQDateTime::currentDateTime()\fP)"
+
+.PP
+Definition at line 8 of file correction\&.cpp\&.
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBCorrectionData\fP & cor)\fC [friend]\fP"
+
+.PP
+Definition at line 14 of file correction\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBCorrectionData\fP & cor)\fC [friend]\fP"
+
+.PP
+Definition at line 20 of file correction\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "QDateTime CorrectionData::m_dTime\fC [private]\fP"
+
+.PP
+Definition at line 24 of file correction\&.h\&.
+.SS "\fBFieldList\fP CorrectionData::m_fields\fC [private]\fP"
+
+.PP
+Definition at line 22 of file correction\&.h\&.
+.SS "\fBAccount\fP CorrectionData::m_sender\fC [private]\fP"
+
+.PP
+Definition at line 23 of file correction\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

@@ -1,0 +1,114 @@
+.TH "RoomData" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RoomData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <room\&.h>\fP
+.PP
+Inherits \fBRoomAboutData\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRoomData\fP (QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "\fBRoomData\fP (QSharedPointer< \fBRoomData\fP > parentRoom, QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "QSharedPointer< \fBRoomData\fP > \fBchild\fP (QString childId)"
+.br
+.ti -1c
+.RI "void \fBaddchild\fP (QSharedPointer< \fBRoomData\fP > \fBchild\fP)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSpysokList\fP \fBm_spysky\fP"
+.br
+.ti -1c
+.RI "\fBUnitList\fP \fBm_units\fP"
+.br
+.ti -1c
+.RI "QSharedPointer< \fBRoomData\fP > \fBm_parent\fP"
+.br
+.ti -1c
+.RI "QList< QSharedPointer< \fBRoomData\fP > > \fBm_children\fP"
+.br
+.ti -1c
+.RI "\fBRules\fP \fBm_rule\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBRoomData\fP &r)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBRoomData\fP &r)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file room\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "RoomData::RoomData (QObject * parent = \fCnullptr\fP)"
+
+.PP
+Definition at line 3 of file room\&.cpp\&.
+.SS "RoomData::RoomData (QSharedPointer< \fBRoomData\fP > parentRoom, QObject * parent = \fCnullptr\fP)"
+
+.PP
+Definition at line 8 of file room\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void RoomData::addchild (QSharedPointer< \fBRoomData\fP > child)"
+
+.PP
+Definition at line 13 of file room\&.cpp\&.
+.SS "QSharedPointer<\fBRoomData\fP> RoomData::child (QString childId)"
+
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBRoomData\fP & r)\fC [friend]\fP"
+
+.PP
+Definition at line 23 of file room\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBRoomData\fP & r)\fC [friend]\fP"
+
+.PP
+Definition at line 18 of file room\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "QList<QSharedPointer <\fBRoomData\fP> > RoomData::m_children\fC [private]\fP"
+
+.PP
+Definition at line 23 of file room\&.h\&.
+.SS "QSharedPointer<\fBRoomData\fP> RoomData::m_parent\fC [private]\fP"
+
+.PP
+Definition at line 22 of file room\&.h\&.
+.SS "\fBRules\fP RoomData::m_rule\fC [private]\fP"
+
+.PP
+Definition at line 25 of file room\&.h\&.
+.SS "\fBSpysokList\fP RoomData::m_spysky\fC [private]\fP"
+
+.PP
+Definition at line 19 of file room\&.h\&.
+.SS "\fBUnitList\fP RoomData::m_units\fC [private]\fP"
+
+.PP
+Definition at line 20 of file room\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

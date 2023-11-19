@@ -1,0 +1,90 @@
+.TH "Storage" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Storage
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <storage\&.h>\fP
+.PP
+Inherits QObject\&.
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static const \fBStorage\fP * \fBget\fP ()"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStorage\fP ()=default"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBAccount\fP \fBm_account\fP"
+.br
+.ti -1c
+.RI "\fBLinkList\fP \fBm_link\fP"
+.br
+.ti -1c
+.RI "\fBAuthList\fP \fBm_auth\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "QDataStream & \fBoperator>>\fP (QDataStream &s, \fBStorage\fP &rage)"
+.br
+.ti -1c
+.RI "QDataStream & \fBoperator<<\fP (QDataStream &s, \fBStorage\fP &rage)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file storage\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Storage::Storage ()\fC [private]\fP, \fC [default]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "const \fBStorage\fP * Storage::get ()\fC [static]\fP"
+
+.PP
+Definition at line 4 of file storage\&.cpp\&.
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "QDataStream& operator<< (QDataStream & s, \fBStorage\fP & rage)\fC [friend]\fP"
+
+.PP
+Definition at line 17 of file storage\&.cpp\&.
+.SS "QDataStream& operator>> (QDataStream & s, \fBStorage\fP & rage)\fC [friend]\fP"
+
+.PP
+Definition at line 13 of file storage\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBAccount\fP Storage::m_account\fC [private]\fP"
+
+.PP
+Definition at line 19 of file storage\&.h\&.
+.SS "\fBAuthList\fP Storage::m_auth\fC [private]\fP"
+
+.PP
+Definition at line 21 of file storage\&.h\&.
+.SS "\fBLinkList\fP Storage::m_link\fC [private]\fP"
+
+.PP
+Definition at line 20 of file storage\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="" title="Namir Reference Documentation" version="" project="Namir">
+    <namespace name="" status="active" access="public" module="namir">
+        <class name="Field" href="field.html" status="active" access="public" location="field.h" filepath="/home/andrij/develop/projects/namir_simple/src/stem/field.h" lineno="5" documented="true" module="Stem" brief="Access to directory">
+            <function name="Field" fullname="Field::Field" href="field.html#Field" status="active" access="public" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" brief="Sdgdhfjfj attr value" signature="Field(enums::Attribute attr, int value)">
+                <parameter type="enums::Attribute" name="attr" default=""/>
+                <parameter type="int" name="value" default=""/>
+            </function>
+            <function name="attr" fullname="Field::attr" href="field.html#attr" status="active" access="private" location="field.h" filepath="/home/andrij/develop/projects/namir_simple/src/stem/field.h" lineno="10" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="enums::Attribute" signature="enums::Attribute attr() const"/>
+            <function name="max" fullname="Field::max" href="field.html#max" status="active" access="private" location="field.h" filepath="/home/andrij/develop/projects/namir_simple/src/stem/field.h" lineno="12" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="int" signature="int max()"/>
+            <function name="value" fullname="Field::value" href="field.html#value" status="active" access="private" location="field.h" filepath="/home/andrij/develop/projects/namir_simple/src/stem/field.h" lineno="11" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="int" signature="int value() const"/>
+        </class>
+        <namespace name="enums" href="enums.html" status="active" access="public" location="enum.h" filepath="/home/andrij/develop/projects/namir_simple/src/stem/enum.h" lineno="35" documented="true" module="stem">
+            <enum name="Attribute" fullname="enums::Attribute" href="enums.html#Attribute-enum" status="active" access="public" location="enum.h" filepath="/home/andrij/develop/projects/namir_simple/src/stem/enum.h" lineno="36" documented="true" scoped="true">
+                <value name="None" value="0xEA00"/>
+                <value name="Email" value="0xEAA0"/>
+                <value name="Login" value="0x-155f"/>
+                <value name="Icon" value="0x-155e"/>
+            </enum>
+        </namespace>
+        <module name="Stem" href="stem-module.html" status="internal" seen="false" title=""/>
+        <module name="stem" href="stem-module.html" status="internal" seen="false" title=""/>
+    </namespace>
+</INDEX>

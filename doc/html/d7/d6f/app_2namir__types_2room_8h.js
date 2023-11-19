@@ -1,0 +1,37 @@
+var app_2namir__types_2room_8h =
+[
+    [ "Variant", "dd/d1c/structnamir_1_1Variant.html", "dd/d1c/structnamir_1_1Variant" ],
+    [ "Variants", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2b", [
+      [ "uint8_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2baab49d6f1a6f63085e91b76ae24d6cfb7", null ],
+      [ "int8_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba923f5fb759073d193c80be2155008d85", null ],
+      [ "uint16_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bad174686007bc95283207bd896b19ffbb", null ],
+      [ "int16_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba040dfd371c3a09526cfa43f3c5eda172", null ],
+      [ "uint32_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba5dfbd6eff5c1f986c25fa49a6d36b842", null ],
+      [ "int32_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2babe345fddda975b690acfd15b4e22d4e1", null ],
+      [ "uint64_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bad667826d9ab05c9e36a7ec04b54f6ad9", null ],
+      [ "int64_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba0c85c9c4c3001d01b723e144051c03a0", null ],
+      [ "std_string", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bac3a2dc02713d65905ccc6b57de8c36af", null ],
+      [ "std_wstring", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bac9420ebcd47f861cfa5804bbfd4762d8", null ],
+      [ "float_", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2baefe6d5085c67bc38cd3746f2dc8013e1", null ],
+      [ "double_", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba9ff848d203d671e297c98886f9fc0bd9", null ],
+      [ "char_ptr", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba5daa3190aeed03352791cd7def33dc59", null ],
+      [ "bool_", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba467afb5838aa377d55cce81f84c5512b", null ],
+      [ "null", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba37a6259cc0c1dae299a7866489dff0bd", null ],
+      [ "uint8_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2baab49d6f1a6f63085e91b76ae24d6cfb7", null ],
+      [ "int8_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba923f5fb759073d193c80be2155008d85", null ],
+      [ "uint16_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bad174686007bc95283207bd896b19ffbb", null ],
+      [ "int16_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba040dfd371c3a09526cfa43f3c5eda172", null ],
+      [ "uint32_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba5dfbd6eff5c1f986c25fa49a6d36b842", null ],
+      [ "int32_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2babe345fddda975b690acfd15b4e22d4e1", null ],
+      [ "uint64_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bad667826d9ab05c9e36a7ec04b54f6ad9", null ],
+      [ "int64_t", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba0c85c9c4c3001d01b723e144051c03a0", null ],
+      [ "std_string", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bac3a2dc02713d65905ccc6b57de8c36af", null ],
+      [ "std_wstring", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2bac9420ebcd47f861cfa5804bbfd4762d8", null ],
+      [ "float_", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2baefe6d5085c67bc38cd3746f2dc8013e1", null ],
+      [ "double_", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba9ff848d203d671e297c98886f9fc0bd9", null ],
+      [ "char_ptr", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba5daa3190aeed03352791cd7def33dc59", null ],
+      [ "bool_", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba467afb5838aa377d55cce81f84c5512b", null ],
+      [ "null", "d7/d6f/app_2namir__types_2room_8h.html#a91176b4673372b50aaf1004399d48c2ba37a6259cc0c1dae299a7866489dff0bd", null ]
+    ] ],
+    [ "operator<<", "d7/d6f/app_2namir__types_2room_8h.html#aff44ece1d5f7d24cc0d5af442327b76f", null ]
+];

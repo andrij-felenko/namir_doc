@@ -1,0 +1,250 @@
+.TH "src/tree/include/enum.h" 3 "Wed Mar 15 2023" "Namir" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/tree/include/enum.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <cstdint>\fP
+.br
+\fC#include <QtCore/QDebug>\fP
+.br
+\fC#include <QtCore/QString>\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBeconomy::Currencies\fP"
+.br
+.ti -1c
+.RI "struct \fBeconomy::Currencies::Single\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBenums\fP"
+.br
+.RI "\\inmodule stem "
+.ti -1c
+.RI " \fBsort\fP"
+.br
+.ti -1c
+.RI " \fBeconomy\fP"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum class \fBenums::Attribute\fP : uint16_t "
+.br
+.RI "Specified for Attribute list using insode \fBField\fP class \\inmodule stem \\value None \\value Email \\value Login \\value Icon\&. "
+.ti -1c
+.RI "enum class \fBenums::RequestToServer\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Save\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Object\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Access\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::SendStatus\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Currency\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::AccountType\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Anchor\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Continent\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::OS\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Schedule\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Saving\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Action\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Complete\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::File\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Compress\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::SortSensitive\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::SortDirection\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::SortBy\fP : uint16_t "
+.br
+.ti -1c
+.RI "enum class \fBenums::Link\fP : uint16_t "
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Attribute &attr)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const RequestToServer &r)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Save &s)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Object &obj)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Access &acs)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const SendStatus &ss)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const AccountType &acc)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Anchor &an)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Continent &c)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const OS &os)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Schedule &sh)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Saving &ss)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Action &a)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Complete &c)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const File &f)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const Compress &c)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const SortSensitive &s)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const SortDirection &s)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const SortBy &s)"
+.br
+.ti -1c
+.RI "std::string \fBenums::toString\fP (const \fBLink\fP &l)"
+.br
+.ti -1c
+.RI "\fBenums::SortBy\fP \fBsort::sort_type\fP (uint8_t s)"
+.br
+.ti -1c
+.RI "\fBenums::SortDirection\fP \fBsort::sort_direction\fP (uint8_t s)"
+.br
+.ti -1c
+.RI "\fBenums::SortSensitive\fP \fBsort::sort_sensitive\fP (uint8_t s)"
+.br
+.ti -1c
+.RI "uint8_t \fBsort::sort\fP (\fBenums::SortBy\fP type, \fBenums::SortDirection\fP direction, \fBenums::SortSensitive\fP sensitive)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "const auto \fBenums::Attribute_0\fP = Attribute::None"
+.br
+.ti -1c
+.RI "const auto \fBenums::Request_0\fP = RequestToServer::Login"
+.br
+.ti -1c
+.RI "const auto \fBenums::Save_0\fP = Save::OnlyCurrent"
+.br
+.ti -1c
+.RI "const auto \fBenums::Object_0\fP = Object::Public"
+.br
+.ti -1c
+.RI "const auto \fBenums::Access_0\fP = Access::Owner"
+.br
+.ti -1c
+.RI "const auto \fBenums::SendStatus_0\fP = SendStatus::None"
+.br
+.ti -1c
+.RI "const auto \fBenums::AccountType_0\fP = AccountType::Unknown"
+.br
+.ti -1c
+.RI "const auto \fBenums::Anchor_0\fP = Anchor::Unarchor"
+.br
+.ti -1c
+.RI "const auto \fBenums::Continent_0\fP = Continent::Unknown"
+.br
+.ti -1c
+.RI "const auto \fBenums::OS_0\fP = OS::iOS"
+.br
+.ti -1c
+.RI "const auto \fBenums::Schedule_0\fP = Schedule::None"
+.br
+.ti -1c
+.RI "const auto \fBenums::Saving_0\fP = Saving::Temporary"
+.br
+.ti -1c
+.RI "const auto \fBenums::Action_0\fP = Action::Add"
+.br
+.ti -1c
+.RI "const auto \fBenums::Complete_0\fP = Complete::Unnecessary"
+.br
+.ti -1c
+.RI "const auto \fBenums::File_0\fP = File::Data"
+.br
+.ti -1c
+.RI "const auto \fBenums::Compress_0\fP = Compress::NotAtAll"
+.br
+.ti -1c
+.RI "const auto \fBenums::SortSensitive_0\fP = SortSensitive::CaseSensitive"
+.br
+.ti -1c
+.RI "const auto \fBenums::SortDirection_0\fP = SortDirection::Direct"
+.br
+.ti -1c
+.RI "const auto \fBenums::SortBy_0\fP = SortBy::Alphabet"
+.br
+.ti -1c
+.RI "const auto \fBenums::Link_0\fP = Link::User"
+.br
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Namir from the source code\&.
